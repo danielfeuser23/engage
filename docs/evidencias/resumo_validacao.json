@@ -1,0 +1,95 @@
+{
+  "validated_at": "2026-10-22T20:49:50.666715-03:00",
+  "validation": "Fresh execution on an isolated identical source, not reuse of previous pass reports",
+  "course": {
+    "zip": "Mobilize_Banco_N1_RPG_Pixel_v3_9_SCORM_1_2.zip",
+    "sha256": "4e80f2a554194f9f900da65448b15f5dd205e7da78b84303d329ac494c56ee5d",
+    "files": 180,
+    "original_preserved": true,
+    "source_equals_tested_zip": true,
+    "runtime_hashes_match": 150,
+    "questions": 135,
+    "pass_score": 70,
+    "game_code_modified": false
+  },
+  "journey": {
+    "interface_only": true,
+    "progress_injected": false,
+    "answered": 135,
+    "correct": 102,
+    "wrong": 33,
+    "score": 75,
+    "status": "passed",
+    "bosses": 9,
+    "events": {
+      "camp": 3,
+      "chest": 3,
+      "potion": 3,
+      "merchant": 5,
+      "item": 2,
+      "scroll": 2
+    },
+    "purchases": 3,
+    "revivals": 3,
+    "checkpoints": 9,
+    "chapters": 3,
+    "reloads": 8,
+    "rare": 5,
+    "event_choices": 17,
+    "event_skips": 1,
+    "equips": 3,
+    "missions": 3,
+    "guided_steps": 33,
+    "max_suspend_chars": 1023,
+    "natural_seed": 841251,
+    "natural_candidates": 3,
+    "discarded_answers": 0,
+    "known_errors_match_notebook": true,
+    "consultation_marks_are_qa_actions": true,
+    "common_art_coverage": [
+      "sentinela_atendimento",
+      "bug_front",
+      "golem_gravame",
+      "mimico_boleto",
+      "guardiao_spf",
+      "arauto_cessao"
+    ]
+  },
+  "tests": {
+    "scorm_domain_and_browser_assertions": 194,
+    "syntax_js": 12,
+    "interface": 86,
+    "extra_pose_feedback_mission": 11,
+    "art_cases": 117,
+    "art_conditions": 864,
+    "art_assets": 36,
+    "native_art_constraints": 36,
+    "image_decode": 119,
+    "wav_decode": 9,
+    "media_ui_groups": 2,
+    "integrated_expansion": 54,
+    "complementary_mechanics": 57,
+    "rank_boundaries": 8,
+    "gameplay_clarity": 12,
+    "zip_extracted_checks": 17
+  },
+  "new_confirmed_game_bugs": [],
+  "test_fixture_corrections": [
+    "long-name assertion follows intentional trim()",
+    "mobile screenshot helper selects before focusing disabled attack"
+  ],
+  "suspend_limits": {
+    "maximum_observed_journey": 1023,
+    "stress_observed": 1012,
+    "accepted": 4096,
+    "rejected": 4097
+  },
+  "engage_real": false,
+  "limitations": [
+    "Chromium headless; no real Engage homologation",
+    "no physical handset or complete screen-reader audit",
+    "audio decoded and controls tested; no human listening",
+    "50 common and six rare designs preserved",
+    "observed maximum is not an absolute mathematical bound"
+  ]
+}

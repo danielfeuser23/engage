@@ -1,0 +1,4 @@
+# Keep the tested SCORM snapshot byte-identical, including inherited line endings.
+v3_9/** -text
+dist/*.zip -text
+docs/capturas/*.png -text

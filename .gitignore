@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.env
+.env.*
+!.env.example
+evidencias_v3_9/
+arte_v3_9/
+generated_images/
+zipcheck*/
+*.log
+.DS_Store

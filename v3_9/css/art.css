@@ -1,0 +1,34 @@
+/* v3.9: art-only scale, contours and accessory anchors. Native files use
+   binary transparency, nearest-neighbour export and shared foot pivots. */
+.pixelSprite{image-rendering:pixelated;object-fit:contain}
+body.game-active .heroActor .pixelSprite,
+body.game-active .enemyActor .pixelSprite,
+body.game-active .enemyActor.big .pixelSprite{filter:drop-shadow(0 4px 0 #06101c)}
+.heroAppearance{--head-x:50%;--head-y:12%}
+.heroAppearance.equipped-chapeu_investigador .accessoryMark{
+ left:var(--head-x);top:calc(var(--head-y) - 6%);right:auto;
+ width:32%;height:13%;max-width:42px;transform:translateX(-50%);
+ filter:drop-shadow(0 2px 0 #071014);
+}
+.heroAppearance.equipped-capa_guardiao{outline-offset:-2px;box-shadow:none}
+.playerBadge .heroAppearance.equipped-chapeu_investigador .accessoryMark{width:32%;height:13%;max-width:none}
+.missionNpcSprite{filter:drop-shadow(0 3px 0 #07131c)}
+.missionPortrait{background:radial-gradient(ellipse at 50% 80%,#23777c55,transparent 70%),#10212e}
+.heroAppearance[data-hero="investigador"][data-pose="idle"]{--head-x:46.55%;--head-y:19.43%;}
+.heroAppearance[data-hero="investigador"][data-pose="attack"]{--head-x:49.72%;--head-y:32.14%;}
+.heroAppearance[data-hero="investigador"][data-pose="hurt"]{--head-x:49.45%;--head-y:32.41%;}
+.heroAppearance[data-hero="investigador"][data-pose="victory"]{--head-x:36.46%;--head-y:20.26%;}
+.heroAppearance[data-hero="investigador"][data-pose="defeat"]{--head-x:45.30%;--head-y:45.12%;}
+.heroAppearance[data-hero="investigador"][data-pose="xp"]{--head-x:43.37%;--head-y:21.91%;}
+.heroAppearance[data-hero="guardiao"][data-pose="idle"]{--head-x:36.55%;--head-y:13.94%;}
+.heroAppearance[data-hero="guardiao"][data-pose="attack"]{--head-x:34.36%;--head-y:25.64%;}
+.heroAppearance[data-hero="guardiao"][data-pose="hurt"]{--head-x:36.84%;--head-y:24.47%;}
+.heroAppearance[data-hero="guardiao"][data-pose="victory"]{--head-x:33.63%;--head-y:25.93%;}
+.heroAppearance[data-hero="guardiao"][data-pose="defeat"]{--head-x:39.48%;--head-y:33.82%;}
+.heroAppearance[data-hero="guardiao"][data-pose="xp"]{--head-x:41.81%;--head-y:21.25%;}
+.heroAppearance[data-hero="estrategista"][data-pose="idle"]{--head-x:47.76%;--head-y:18.23%;}
+.heroAppearance[data-hero="estrategista"][data-pose="attack"]{--head-x:31.82%;--head-y:31.93%;}
+.heroAppearance[data-hero="estrategista"][data-pose="hurt"]{--head-x:62.03%;--head-y:34.45%;}
+.heroAppearance[data-hero="estrategista"][data-pose="victory"]{--head-x:34.34%;--head-y:22.15%;}
+.heroAppearance[data-hero="estrategista"][data-pose="defeat"]{--head-x:33.50%;--head-y:44.52%;}
+.heroAppearance[data-hero="estrategista"][data-pose="xp"]{--head-x:38.95%;--head-y:23.26%;}

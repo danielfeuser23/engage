@@ -1,0 +1,433 @@
+
+:root{
+  --bg:#080a0b;--panel:#15191b;--panel2:#202529;--line:#3d464c;--text:#f5f6f7;--muted:#aab3b9;
+  --yellow:#ffd100;--yellow2:#e7b900;--green:#65df91;--red:#ff626f;--blue:#58c8ff;--purple:#c18aff;
+  --px:2px;--shadow:0 22px 64px rgba(0,0,0,.45)
+}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:#070809;color:var(--text);font-family:Segoe UI,Arial,sans-serif}
+body{
+  background:
+  radial-gradient(circle at 15% 0,rgba(255,209,0,.08),transparent 26%),
+  radial-gradient(circle at 85% 10%,rgba(88,200,255,.05),transparent 26%),
+  #080a0b
+}
+button,input{font:inherit}
+button{cursor:pointer}
+img{image-rendering:pixelated}
+#app{min-height:100vh}
+.topbar{
+  height:66px;padding:0 18px;display:flex;align-items:center;gap:14px;position:sticky;top:0;z-index:100;
+  background:rgba(8,10,11,.97);border-bottom:2px solid #31383d;box-shadow:0 4px 0 #050607
+}
+.brand{font-family:"Courier New",monospace;font-weight:900;letter-spacing:.07em;white-space:nowrap}
+.brand span{color:var(--yellow)}.brand b{color:#c3c9cd;font-size:11px;margin-left:5px}
+.crumb{font-size:12px;color:#8e989e;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.grow{flex:1}
+.miniStat{height:34px;padding:5px 9px;background:#14181a;border:2px solid #30383d;display:flex;align-items:center;gap:6px;font:700 12px "Courier New",monospace}
+.pxicon{width:18px;height:18px;image-rendering:pixelated}.pxicon.dim{filter:grayscale(1);opacity:.2}
+.topBtn{width:34px;height:34px;border:2px solid #353d42;background:#15191b;color:white}
+.lms{font:800 10px "Courier New",monospace;padding:6px 8px;border:2px solid #374047;color:#89939a}.lms.on{background:var(--green);color:#0b130e;border-color:#0b130e}
+.page{max-width:1180px;margin:auto;padding:24px 16px 55px}
+.gamePage{max-width:1050px;margin:auto;padding:18px 12px 50px}
+.pixelPanel,.gameFrame{
+  background:linear-gradient(145deg,#171b1e,#101315);border:2px solid #414a50;box-shadow:0 0 0 4px #0b0d0e,var(--shadow);
+  position:relative;overflow:hidden
+}
+.pixelPanel:before,.gameFrame:before{
+  content:"";position:absolute;inset:6px;border:1px solid rgba(255,255,255,.055);pointer-events:none;z-index:2
+}
+.eyebrow{font:900 12px "Courier New",monospace;letter-spacing:.15em;color:var(--yellow);text-transform:uppercase}
+.muted{color:var(--muted)}
+.pxBtn{
+  border:0;min-height:44px;padding:10px 16px;font:900 13px "Courier New",monospace;letter-spacing:.05em;
+  box-shadow:inset -4px -4px 0 rgba(0,0,0,.24),inset 4px 4px 0 rgba(255,255,255,.10),0 4px 0 #050607
+}
+.pxBtn:active{transform:translateY(2px);box-shadow:inset -3px -3px 0 rgba(0,0,0,.24),0 2px 0 #050607}
+.pxBtn.primary{background:var(--yellow);color:#101113}.pxBtn.secondary{background:#30373c;color:white;border:2px solid #4b555c}.pxBtn.danger{background:#9a4779;color:white}
+.heroScreen{min-height:590px;padding:50px;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:25px}
+.heroCopy{position:relative;z-index:5}.heroScreen h1{font:900 52px/1.02 "Courier New",monospace;letter-spacing:-.06em;margin:12px 0}.heroScreen h1 em{font-style:normal;color:var(--yellow)}
+.heroCopy p{max-width:680px;line-height:1.65;color:#c4cbd0;font-size:17px}.heroCopy small{display:block;color:#8f999f;margin-top:12px}
+.tagRow{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0}.tagRow span{font:800 11px "Courier New",monospace;border:2px solid #384047;background:#191d20;padding:7px 9px}
+.titleScene{height:420px;position:relative;display:grid;place-items:center}
+.bigDiamond{width:250px;height:250px;border:6px solid var(--yellow);transform:rotate(45deg);display:grid;place-items:center;box-shadow:0 0 45px rgba(255,209,0,.12)}
+.bigDiamond span{transform:rotate(-45deg);font:900 72px "Courier New",monospace;color:var(--yellow)}
+.titleHero{position:absolute;right:35px;bottom:20px}
+.sprite{background-image:var(--sprite);background-repeat:no-repeat;image-rendering:pixelated;background-position:0 0;flex:none}
+.sprite2{background-size:200% 100%;animation:sprite2 .85s steps(2) infinite}
+.sprite3{background-size:300% 100%;animation:sprite3 .8s steps(3) infinite}
+@keyframes sprite2{to{background-position:100% 0}}@keyframes sprite3{to{background-position:100% 0}}
+.largeHero{width:160px;height:160px}.titleHero .sprite{transform:scale(1)}
+.pixelCloud{position:absolute;width:90px;height:22px;background:#273036;opacity:.7;box-shadow:22px -12px 0 #273036,-18px 5px 0 #273036;animation:cloud 6s linear infinite}
+.c1{left:0;top:90px}.c2{right:15px;top:55px;animation-duration:8s}@keyframes cloud{50%{transform:translateX(22px)}}
+.createPanel{padding:34px}.createPanel h2,.mapHeader h2{font:900 30px "Courier New",monospace;margin:8px 0}
+.classGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin:24px 0}
+.classCard{background:#1b2023;color:white;border:2px solid #394248;padding:18px;text-align:left;box-shadow:inset -4px -4px 0 #111416}
+.classCard:hover,.classCard.selected{border-color:var(--yellow);background:#22251d}
+.classStage{height:140px;display:grid;place-items:center;background:linear-gradient(#12181b,#1d2428);border:2px solid #30393f;margin-bottom:12px}
+.classSprite{width:128px;height:128px}.classCard strong{font:900 15px "Courier New",monospace;color:var(--yellow)}.classCard p{color:#aeb6bb;font-size:12px;line-height:1.45}
+.nameRow{display:flex;gap:10px;max-width:620px}.nameRow input{flex:1;background:#0e1112;border:2px solid #3a4349;color:white;padding:11px 12px;outline:none}.nameRow input:focus{border-color:var(--yellow)}
+.mapPanel{padding:28px}.mapHeader{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:15px}
+.playerBadge{display:flex;align-items:center;gap:10px;background:#101315;border:2px solid #343c42;padding:7px 12px}.playerBadge .sprite{width:52px;height:52px}.playerBadge span{font:900 12px "Courier New",monospace}.playerBadge b{display:block;color:var(--yellow);font-size:10px}
+.world{height:360px;background-size:cover;background-position:center;image-rendering:pixelated;position:relative;border:4px solid #343b40;box-shadow:inset 0 0 0 4px #0c0f10}
+.chapterNode{position:absolute;display:flex;align-items:center;gap:8px;background:#15191b;border:2px solid #4a5359;padding:7px 9px;min-width:160px;box-shadow:0 3px 0 #080a0b}
+.chapterNode>span{width:28px;height:28px;background:var(--yellow);color:#111;display:grid;place-items:center;font:900 14px "Courier New",monospace}.chapterNode strong{font:900 10px "Courier New",monospace}.chapterNode small{display:block;color:#8e999f;font-size:9px;margin-top:2px}
+.chapterNode.locked{filter:grayscale(1);opacity:.5}.chapterNode.done{border-color:var(--green)}.chapterNode.current{animation:nodeGlow 1.2s steps(2) infinite}
+.node1{left:7%;bottom:16%}.node2{left:41%;top:14%}.node3{right:6%;bottom:19%}@keyframes nodeGlow{50%{box-shadow:0 0 0 4px rgba(255,209,0,.22)}}
+.chapterCards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}.chapterCard{padding:18px;background:#171b1e;border:2px solid #353e44}.chapterCard.locked{opacity:.45}.chapterCard h3{font:900 16px "Courier New",monospace;margin:7px 0}.chapterCard p{font-size:12px;line-height:1.5;color:#aeb7bc}.routeMini{display:flex;align-items:center;gap:5px;flex-wrap:wrap;font-size:9px;color:#909a9f;margin:12px 0}.routeMini i{color:var(--yellow)}.doneSeal{font:900 11px "Courier New",monospace;color:var(--green);margin-top:15px}
+.gameFrame{overflow:visible}
+.battleScene{height:360px;background-size:cover;background-position:center;image-rendering:pixelated;position:relative;overflow:hidden;border-bottom:2px solid #495157}
+.battleScene:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 55%,rgba(0,0,0,.32));pointer-events:none}
+.scanlines{position:absolute;inset:0;z-index:8;pointer-events:none;opacity:.055;background:repeating-linear-gradient(0deg,#fff 0,#fff 1px,transparent 1px,transparent 4px)}
+.areaBanner{position:absolute;top:70px;left:-4px;z-index:15;background:rgba(7,9,10,.86);border:2px solid var(--yellow);border-left:0;padding:8px 18px;font:900 12px "Courier New",monospace;transform:translateX(-110%)}.areaBanner.show{animation:areaIn 2.1s ease forwards}@keyframes areaIn{12%,72%{transform:translateX(0)}100%{transform:translateX(-110%)}}
+.hudBox{position:absolute;top:14px;z-index:14;width:245px;background:rgba(8,11,12,.90);border:2px solid #555e64;padding:8px 10px;box-shadow:3px 3px 0 rgba(0,0,0,.45)}.playerHud{left:14px}.enemyHud{right:14px}
+.hudBox>div:first-child{display:flex;justify-content:space-between;align-items:center;gap:8px}.hudBox strong{font:900 11px "Courier New",monospace}.hudBox small{font:800 8px "Courier New",monospace;color:#98a2a8}.heartRow{height:21px;margin:4px 0}
+.bar{height:10px;background:#111416;border:2px solid #475057;overflow:hidden}.bar i{height:100%;display:block;transition:width .5s steps(8);background:var(--green)}.bar i.enemy{background:var(--red)}.bar i.purple{background:var(--purple)}
+.heroActor,.enemyActor{position:absolute;z-index:10;bottom:58px}.heroActor{left:13%}.enemyActor{right:15%}.heroActor .sprite{width:144px;height:144px}.enemyActor .sprite{width:144px;height:144px}.enemyActor.big .sprite{width:210px;height:210px}
+.battleGround{position:absolute;z-index:7;left:6%;right:6%;bottom:42px;height:20px;background:rgba(0,0,0,.28);clip-path:polygon(3% 0,97% 0,100% 100%,0 100%)}
+.enemyActor.hit{animation:enemyHit .55s steps(4)}.enemyActor.attack{animation:enemyAttack .55s steps(3)}@keyframes enemyHit{25%{transform:translateX(12px);filter:brightness(2)}50%{transform:translateX(-10px)}75%{opacity:.35}}@keyframes enemyAttack{50%{transform:translateX(-65px) scale(1.08)}}
+.fxLayer{position:absolute;inset:0;z-index:20;pointer-events:none}.floatText{position:absolute;font:900 18px "Courier New",monospace;text-shadow:2px 2px #111;animation:floatUp 1s steps(8) forwards}.floatText.damage{color:var(--yellow)}.floatText.hurt{color:var(--red)}@keyframes floatUp{to{transform:translateY(-60px);opacity:0}}
+.particle{position:absolute;width:6px;height:6px;background:var(--yellow);animation:pop 1s steps(6) forwards}.particle.level{background:var(--blue)}@keyframes pop{to{transform:translateY(-50px) rotate(180deg);opacity:0}}
+.hudStrip{min-height:66px;background:#0e1112;border-bottom:2px solid #333b41;display:grid;grid-template-columns:1fr 1.3fr 1fr 1fr 1fr;gap:1px}.hudMetric{display:flex;align-items:center;gap:8px;padding:8px 11px;border-right:1px solid #30373c}.hudMetric small{display:block;color:#869198;font:800 8px "Courier New",monospace}.hudMetric b{font:900 12px "Courier New",monospace}.hudMetric.wide span{width:100%}.xpbar{display:block;height:8px;background:#262c30;border:1px solid #424b50;margin-top:5px}.xpbar i{display:block;height:100%;background:var(--yellow);transition:width .5s}.combo b{color:var(--yellow)}
+.questionBox{padding:24px;background:linear-gradient(#171b1d,#101315);position:relative}.questionMeta{display:flex;gap:9px;align-items:center;font:900 10px "Courier New",monospace;color:#8e989e}.questionMeta span{color:var(--yellow)}.questionMeta em{font-style:normal;background:#68466f;color:#ead9ff;padding:4px 7px}.questionMeta em.rare{background:#6d5b12;color:#fff1a8}
+.questionBox h3{font-size:22px;line-height:1.4;margin:10px 0 18px}.options{display:grid;grid-template-columns:1fr 1fr;gap:9px}.answer{background:#202529;color:white;border:2px solid #3b444a;text-align:left;display:flex;align-items:flex-start;gap:10px;padding:12px;min-height:58px;box-shadow:inset -3px -3px 0 #121517}.answer:hover{border-color:#677178}.answer.selected{border-color:var(--yellow);background:#29291f}.answer.correct{border-color:var(--green);background:#173122}.answer.wrong{border-color:var(--red);background:#35181e}.answer kbd{min-width:29px;height:29px;display:grid;place-items:center;background:#111416;border:2px solid #3b444a;color:var(--yellow);font:900 12px "Courier New",monospace}.answer span{line-height:1.35}
+.feedback{display:none;margin-top:14px;border:2px solid #3a444a;background:#121618;padding:13px}.feedback.show{display:block}.feedback.good{border-color:#367d51}.feedback.bad{border-color:#8b3e49}.fbTitle{font:900 13px "Courier New",monospace;color:var(--yellow);margin-bottom:6px}.feedback p{margin:0;color:#b9c2c7;line-height:1.45;font-size:13px}.rewardLine{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px}.rewardLine span{display:flex;align-items:center;gap:4px;font:800 10px "Courier New",monospace}.rareText{color:#ffe47b}.revive,.levelUp{margin-top:9px;padding:7px 9px;font:900 10px "Courier New",monospace}.revive{background:#442229;color:#ffc3c8}.levelUp{background:#213d4b;color:#96e3ff;animation:levelPulse .7s steps(2) 3}@keyframes levelPulse{50%{background:#2c6177;color:white}}
+.questionFooter{margin-top:15px;display:flex;justify-content:space-between;gap:12px;align-items:center}.questionFooter small{color:#7f8a90}
+.bossIntro{min-height:600px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background-image:linear-gradient(rgba(4,5,6,.55),rgba(4,5,6,.88)),var(--boss-bg);background-size:cover;image-rendering:pixelated}.bossFog{position:absolute;inset:0;background:radial-gradient(circle at center,transparent 5%,rgba(20,8,27,.55) 65%);animation:fog 1.6s ease-in-out infinite alternate}@keyframes fog{to{opacity:.65}}.warning{position:relative;z-index:5;color:#f1caff;font:900 12px "Courier New",monospace;letter-spacing:.12em;animation:warning 1s steps(2) infinite}@keyframes warning{50%{opacity:.45}}.bossReveal{position:relative;z-index:5;height:245px;display:grid;place-items:center}.introBoss{width:230px;height:230px}.bossIntro h2{position:relative;z-index:5;font:900 32px "Courier New",monospace;color:var(--purple);margin:0}.bossIntro p{position:relative;z-index:5;color:#d7c9df;margin:8px 0 20px}
+.eventPanel,.checkpoint,.resultPanel,.finalPanel{min-height:520px;padding:45px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}.eventIcon .pxicon{width:96px;height:96px}.eventPanel h2,.checkpoint h2,.resultPanel h2{font:900 29px "Courier New",monospace;margin:10px 0}.eventPanel p,.checkpoint p{color:#adb6bb}.eventReward{color:var(--yellow);font:900 18px "Courier New",monospace;margin:15px 0 22px}.checkpointFlag{font-size:65px;color:var(--yellow);animation:flag 1s steps(2) infinite}@keyframes flag{50%{transform:translateY(-5px)}}.checkGrid,.resultStats,.finalGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;width:min(820px,100%);margin:22px auto}.checkGrid>div,.resultStats>div,.finalGrid>div{background:#1b2023;border:2px solid #394248;padding:14px}.checkGrid strong,.resultStats strong,.finalGrid strong{display:block;font:900 23px "Courier New",monospace;color:var(--yellow)}.checkGrid span,.resultStats span,.finalGrid span{font-size:10px;color:#929da3}.resultStats .pxicon{width:28px;height:28px}.scoreOrb{width:160px;height:160px;border:5px solid var(--yellow);display:flex;flex-direction:column;justify-content:center;transform:rotate(45deg);margin:24px}.scoreOrb>*{transform:rotate(-45deg)}.scoreOrb strong{font:900 35px "Courier New",monospace}.scoreOrb span{font-size:10px;color:#aab3b8}.finalPanel{background:radial-gradient(circle at 50% 20%,rgba(255,209,0,.12),transparent 30%),linear-gradient(#171b1d,#0d1011)}.finalBoss{width:150px;height:150px;opacity:.55}.finalPanel h1{font:900 36px "Courier New",monospace;margin:8px}.finalRank{color:var(--yellow);font:900 28px "Courier New",monospace}.finalPanel>p{color:#aeb7bc}.finalGrid{grid-template-columns:repeat(3,1fr)}.achievements{display:flex;gap:7px;justify-content:center;flex-wrap:wrap;margin:20px}.achievements span{font:900 9px "Courier New",monospace;border:2px solid #4a5258;padding:7px 9px;background:#171b1e}
+.toast{position:fixed;right:20px;bottom:20px;z-index:300;background:#111416;border:2px solid var(--yellow);padding:11px 14px;font:900 11px "Courier New",monospace;transform:translateY(80px);opacity:0;transition:.2s}.toast.show{transform:translateY(0);opacity:1}.toast.ach{border-color:var(--blue)}
+.reduce-motion *{animation-duration:.001ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.001ms!important}
+@media(max-width:850px){
+  .heroScreen{grid-template-columns:1fr;padding:30px}.titleScene{display:none}.classGrid,.chapterCards{grid-template-columns:1fr}.world{height:300px}.chapterNode{min-width:125px}.chapterNode strong{font-size:8px}
+  .options{grid-template-columns:1fr}.hudStrip{grid-template-columns:repeat(3,1fr)}.hudMetric:nth-child(2),.hudMetric:nth-child(5){display:none}.heroActor{left:6%}.enemyActor{right:7%}.questionBox h3{font-size:19px}
+}
+@media(max-width:580px){
+  .page{padding:12px 8px 40px}.gamePage{padding:8px 4px 35px}.topbar{padding:0 8px}.crumb,.miniStat{display:none}.brand b{display:none}
+  .heroScreen h1{font-size:36px}.heroScreen{padding:24px 18px;min-height:520px}.createPanel,.mapPanel{padding:18px}.nameRow{flex-direction:column}
+  .battleScene{height:300px}.hudBox{width:190px}.enemyHud{top:72px}.heroActor .sprite,.enemyActor .sprite{width:115px;height:115px}.enemyActor.big .sprite{width:155px;height:155px}
+  .questionBox{padding:18px 12px}.questionFooter{align-items:flex-end}.checkGrid,.resultStats,.finalGrid{grid-template-columns:repeat(2,1fr)}.eventPanel,.checkpoint,.resultPanel,.finalPanel{padding:28px 17px}
+}
+
+/* Ambient pixel motion: always subtle and disabled by Reduce Animations. */
+.ambientPixels{position:absolute;inset:0;z-index:6;overflow:hidden;pointer-events:none}
+.ambientPixels i{position:absolute;width:4px;height:4px;background:rgba(255,255,255,.26);animation:ambient 5s linear infinite}
+.ambientPixels i:nth-child(1){left:8%;top:22%;animation-delay:-1s}.ambientPixels i:nth-child(2){left:25%;top:75%;animation-delay:-3s}
+.ambientPixels i:nth-child(3){left:43%;top:33%;animation-delay:-2s}.ambientPixels i:nth-child(4){left:61%;top:63%;animation-delay:-4s}
+.ambientPixels i:nth-child(5){left:78%;top:28%;animation-delay:-.5s}.ambientPixels i:nth-child(6){left:91%;top:70%;animation-delay:-2.5s}
+@keyframes ambient{0%{transform:translateY(28px);opacity:0}20%{opacity:.6}100%{transform:translateY(-48px);opacity:0}}
+.family-garantia .ambientPixels i{background:#ff7c46;box-shadow:0 0 4px #ff8a4d}
+.family-sistemas .ambientPixels i,.family-rastreador .ambientPixels i{background:#5ff5e7}
+.family-seguros .ambientPixels i,.family-leasing .ambientPixels i{background:#a8d8ff;opacity:.32}
+.family-boleto .ambientPixels i,.family-pagamentos .ambientPixels i{background:#e8dc78}
+.family-cobranca .ambientPixels i{background:#ff7183}
+.bossScene{box-shadow:inset 0 0 0 4px rgba(193,138,255,.24),inset 0 0 70px rgba(103,55,134,.18)}
+.eventPanel .pxBtn{margin:5px}
+.eventPanel .pxBtn:disabled{opacity:.35;cursor:not-allowed}
+
+
+/* =========================================================
+   V3 — LAYOUT OTIMIZADO PARA O PLAYER DO ENGAGE
+   A batalha e as alternativas ficam na mesma tela em desktop.
+   ========================================================= */
+body.game-active{overflow:hidden}
+body.game-active .topbar{height:50px}
+body.game-active .gamePage{
+  width:100%;
+  max-width:1180px;
+  height:calc(100dvh - 50px);
+  min-height:0;
+  padding:7px 8px 8px;
+  overflow:hidden;
+}
+body.game-active .gameFrame{
+  height:100%;
+  max-height:100%;
+  display:grid;
+  grid-template-columns:minmax(390px,44%) minmax(0,56%);
+  grid-template-rows:minmax(0,1fr) 54px;
+  overflow:hidden;
+  contain:layout paint;
+}
+body.game-active .battleScene{
+  grid-column:1;
+  grid-row:1;
+  width:100%;
+  height:auto;
+  min-height:0;
+  border-right:2px solid #414a50;
+  border-bottom:0;
+  background-size:cover;
+  background-position:center;
+  contain:layout paint;
+}
+body.game-active .hudStrip{
+  grid-column:1;
+  grid-row:2;
+  min-height:54px;
+  height:54px;
+  display:grid;
+  grid-template-columns:1fr 1.15fr .85fr .8fr .85fr;
+  border-right:2px solid #414a50;
+  border-bottom:0;
+}
+body.game-active .hudMetric{
+  min-width:0;
+  padding:5px 7px;
+  gap:4px;
+}
+body.game-active .hudMetric .pxicon{width:15px;height:15px}
+body.game-active .hudMetric small{font-size:7px}
+body.game-active .hudMetric b{font-size:10px}
+body.game-active .questionBox{
+  grid-column:2;
+  grid-row:1 / 3;
+  min-height:0;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  padding:15px 16px 12px;
+  border-left:0;
+}
+body.game-active .questionMeta{flex:0 0 auto}
+body.game-active .questionBox h3{
+  flex:0 0 auto;
+  font-size:clamp(16px,1.55vw,21px);
+  line-height:1.28;
+  margin:8px 0 11px;
+  max-height:82px;
+  overflow:auto;
+  scrollbar-width:thin;
+}
+body.game-active .options{
+  flex:1 1 auto;
+  min-height:0;
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-rows:repeat(4,minmax(48px,1fr));
+  gap:7px;
+}
+body.game-active .answer{
+  min-height:0;
+  height:100%;
+  padding:8px 10px;
+  gap:8px;
+  align-items:center;
+  overflow:hidden;
+}
+body.game-active .answer kbd{
+  min-width:27px;
+  height:27px;
+  font-size:11px;
+}
+body.game-active .answer span{
+  font-size:clamp(12px,1.05vw,14px);
+  line-height:1.24;
+}
+body.game-active .feedback{
+  flex:0 0 auto;
+  max-height:128px;
+  overflow:auto;
+  margin-top:8px;
+  padding:9px 10px;
+  scrollbar-width:thin;
+}
+body.game-active .feedback p{font-size:11px;line-height:1.34}
+body.game-active .rewardLine{margin-top:5px}
+body.game-active .questionFooter{
+  flex:0 0 auto;
+  margin-top:8px;
+  min-height:40px;
+}
+body.game-active .questionFooter small{
+  max-width:64%;
+  font-size:9px;
+  line-height:1.25;
+}
+body.game-active .questionFooter .pxBtn{
+  min-height:38px;
+  padding:8px 14px;
+}
+body.game-active .playerHud,
+body.game-active .enemyHud{
+  width:205px;
+  top:9px;
+  padding:6px 8px;
+}
+body.game-active .playerHud{left:9px}
+body.game-active .enemyHud{right:9px}
+body.game-active .heartRow{height:17px;margin:2px 0}
+body.game-active .heartRow .pxicon{width:15px;height:15px}
+body.game-active .heroActor{
+  left:5%;
+  bottom:28px;
+}
+body.game-active .enemyActor{
+  right:6%;
+  bottom:28px;
+}
+body.game-active .heroActor .pixelSprite{
+  width:150px;
+  height:150px;
+  object-fit:contain;
+  image-rendering:pixelated;
+  filter:drop-shadow(4px 7px 0 rgba(0,0,0,.28));
+}
+body.game-active .enemyActor .pixelSprite{
+  width:176px;
+  height:176px;
+  object-fit:contain;
+  image-rendering:pixelated;
+  filter:drop-shadow(4px 7px 0 rgba(0,0,0,.34));
+}
+body.game-active .enemyActor.big .pixelSprite{
+  width:220px;
+  height:220px;
+}
+.pixelSprite{
+  display:block;
+  image-rendering:pixelated;
+  image-rendering:crisp-edges;
+  user-select:none;
+  pointer-events:none;
+}
+.classStage .pixelSprite{width:128px;height:128px;object-fit:contain}
+.playerBadge .pixelSprite{width:52px;height:52px;object-fit:contain}
+.titleHero .pixelSprite{width:160px;height:160px;object-fit:contain}
+.bossReveal .pixelSprite{width:230px;height:230px;object-fit:contain}
+.finalPanel>.pixelSprite{width:150px;height:150px;object-fit:contain;opacity:.55}
+.scanlines{display:none!important}
+
+/* A animação contínua agora fica dentro dos GIFs pequenos.
+   O browser só anima 2 sprites no campo de batalha, reduzindo reflow/repaint. */
+.sprite,.sprite2,.sprite3{animation:none!important}
+
+/* Pequenos ganhos de renderização */
+.battleScene,.questionBox,.hudStrip{backface-visibility:hidden}
+.ambientPixels{opacity:.55}
+body.game-active .ambientPixels i:nth-child(n+5){display:none}
+
+/* Player pequeno / janela baixa do Engage */
+@media (min-width:901px) and (max-height:760px){
+  body.game-active .topbar{height:46px}
+  body.game-active .gamePage{height:calc(100dvh - 46px);padding:5px}
+  body.game-active .gameFrame{grid-template-columns:minmax(360px,42%) minmax(0,58%);grid-template-rows:minmax(0,1fr) 48px}
+  body.game-active .hudStrip{height:48px;min-height:48px}
+  body.game-active .heroActor .pixelSprite{width:125px;height:125px}
+  body.game-active .enemyActor .pixelSprite{width:145px;height:145px}
+  body.game-active .enemyActor.big .pixelSprite{width:178px;height:178px}
+  body.game-active .heroActor,body.game-active .enemyActor{bottom:18px}
+  body.game-active .playerHud,body.game-active .enemyHud{width:185px}
+  body.game-active .questionBox{padding:11px 13px 9px}
+  body.game-active .questionBox h3{font-size:17px;max-height:64px;margin:6px 0 8px}
+  body.game-active .options{gap:5px;grid-template-rows:repeat(4,minmax(42px,1fr))}
+  body.game-active .answer{padding:6px 8px}
+  body.game-active .feedback{max-height:105px}
+  body.game-active .questionFooter{margin-top:5px;min-height:34px}
+  body.game-active .questionFooter .pxBtn{min-height:34px}
+}
+
+/* Em tablet/tela estreita volta a empilhar e permite rolagem normal. */
+@media (max-width:900px){
+  body.game-active{overflow:auto}
+  body.game-active .gamePage{height:auto;overflow:visible;padding:8px 4px 35px}
+  body.game-active .gameFrame{display:block;height:auto;overflow:visible}
+  body.game-active .battleScene{height:285px;border-right:0;border-bottom:2px solid #414a50}
+  body.game-active .hudStrip{height:auto;min-height:52px;border-right:0}
+  body.game-active .questionBox{display:block;overflow:visible}
+  body.game-active .options{display:grid;grid-template-columns:1fr;grid-template-rows:none}
+  body.game-active .answer{min-height:52px;height:auto}
+}
+
+/* FIX v3.1 — primeira aparição de chefe
+   O overlay bossFog cobria toda a tela e podia capturar o clique no botão ENFRENTAR. */
+.bossFog{pointer-events:none!important;z-index:1!important}
+.bossIntro .warning,.bossIntro .bossReveal,.bossIntro h2,.bossIntro p{position:relative;z-index:5}
+.bossIntro .pxBtn{position:relative;z-index:10;pointer-events:auto}
+@media (min-width:901px){
+  .bossIntro{height:calc(100dvh - 82px);min-height:0;max-height:720px}
+  .bossReveal{height:min(34vh,220px)}
+  .bossReveal .pixelSprite{width:min(30vh,210px);height:min(30vh,210px)}
+}
+
+/* v3.1 fallback de navegação na aparição do chefe */
+.bossIntro{cursor:pointer}
+.bossIntro .bossHint{position:relative;z-index:10;margin-top:10px;color:#b8a9c3;font:800 9px "Courier New",monospace}
+.bossIntro .pxBtn:focus{outline:3px solid #fff;outline-offset:3px}
+
+/* =========================================================
+   V3.2 — TELAS DE TRANSIÇÃO COMPACTAS NO PLAYER DO ENGAGE
+   O Chrome do Engage deixa ~600–700px de altura útil. Nenhum
+   botão crítico deve ficar abaixo da dobra nessas telas.
+   ========================================================= */
+@media (min-width:901px) and (max-height:820px){
+  body:not(.game-active) .topbar{height:48px}
+  body:not(.game-active) .page{padding:8px 10px 10px;max-width:1180px}
+
+  /* abertura */
+  .heroScreen{min-height:0;height:calc(100dvh - 66px);padding:22px 28px;gap:18px}
+  .heroScreen h1{font-size:39px;margin:7px 0 9px}
+  .heroCopy p{font-size:14px;line-height:1.42;margin:8px 0}
+  .tagRow{margin:12px 0}.tagRow span{padding:5px 7px;font-size:9px}
+  .titleScene{height:300px}.bigDiamond{width:190px;height:190px}.bigDiamond span{font-size:55px}
+  .titleHero .pixelSprite{width:120px;height:120px}
+
+  /* criação de personagem */
+  .createPanel{padding:15px 18px;min-height:0;height:calc(100dvh - 66px)}
+  .createPanel h2{font-size:23px;margin:4px 0}.createPanel>.muted{font-size:12px;margin:4px 0 8px}
+  .classGrid{margin:9px 0;gap:8px}.classCard{padding:9px}.classStage{height:82px;margin-bottom:7px}
+  .classStage .pixelSprite{width:78px;height:78px}.classCard strong{font-size:12px}.classCard p{font-size:10px;line-height:1.25;margin:4px 0 0}
+  .nameRow{margin-top:7px}.nameRow input{padding:8px 10px}.nameRow .pxBtn{min-height:38px;padding:8px 13px}
+
+  /* mapa: os botões ENTRAR ficam visíveis sem scroll */
+  .mapPanel{padding:10px 14px;min-height:0;height:calc(100dvh - 66px);overflow:hidden}
+  .mapHeader{margin-bottom:6px;min-height:46px}.mapHeader h2{font-size:21px;margin:3px 0}
+  .playerBadge{padding:4px 8px}.playerBadge .pixelSprite{width:38px;height:38px}
+  .world{height:205px;border-width:3px}
+  .chapterNode{padding:4px 6px;min-width:135px}.chapterNode>span{width:23px;height:23px;font-size:11px}.chapterNode strong{font-size:8px}
+  .chapterCards{margin-top:7px;gap:7px}.chapterCard{padding:9px;min-height:120px}
+  .chapterCard h3{font-size:12px;margin:3px 0}.chapterCard p{font-size:9px;line-height:1.2;margin:4px 0;max-height:34px;overflow:hidden}
+  .routeMini{font-size:7px;margin:5px 0;white-space:nowrap;overflow:hidden}.chapterCard .pxBtn{min-height:32px;padding:5px 9px;font-size:9px;margin-top:2px}
+  .doneSeal{margin-top:7px;font-size:9px}
+
+  /* apresentação do chefe */
+  .bossIntro{min-height:0!important;height:calc(100dvh - 66px);padding:8px 18px;overflow:hidden}
+  .bossIntro .warning{font-size:10px;margin:0 0 2px}.bossReveal{height:150px}.bossReveal .pixelSprite{width:145px;height:145px}
+  .bossIntro h2{font-size:23px;margin:1px 0}.bossIntro p{margin:3px 0 8px;font-size:12px}
+  .bossIntro .pxBtn{min-height:38px;padding:8px 14px}.bossIntro .bossHint{margin-top:5px;font-size:8px}
+
+  /* eventos / checkpoint / resultados */
+  .eventPanel,.checkpoint,.resultPanel,.finalPanel{min-height:0!important;height:calc(100dvh - 66px);padding:12px 18px;overflow:hidden}
+  .eventIcon .pxicon{width:58px;height:58px}.eventPanel h2,.checkpoint h2,.resultPanel h2{font-size:21px;margin:5px 0}
+  .eventPanel p,.checkpoint p{font-size:11px;margin:5px 0}.eventReward{font-size:14px;margin:8px 0 10px}
+  .eventPanel .pxBtn,.checkpoint .pxBtn,.resultPanel .pxBtn,.finalPanel .pxBtn{min-height:35px;padding:7px 11px}
+  .checkpointFlag{font-size:35px}.checkGrid,.resultStats,.finalGrid{gap:6px;margin:9px auto}.checkGrid>div,.resultStats>div,.finalGrid>div{padding:7px}
+  .checkGrid strong,.resultStats strong,.finalGrid strong{font-size:17px}.checkGrid span,.resultStats span,.finalGrid span{font-size:8px}
+  .scoreOrb{width:88px;height:88px;border-width:3px;margin:9px}.scoreOrb strong{font-size:22px}.scoreOrb span{font-size:7px}
+  .resultStats .pxicon{width:20px;height:20px}
+
+  /* final */
+  .finalPanel>.pixelSprite{width:72px;height:72px}.finalPanel h1{font-size:23px;margin:3px}.finalRank{font-size:19px}.finalPanel>p{font-size:10px;margin:3px 0}
+  .finalGrid{grid-template-columns:repeat(6,1fr);width:min(930px,100%);margin:8px auto}.finalGrid>div{padding:6px 4px}.finalGrid strong{font-size:16px}
+  .achievements{margin:7px;gap:4px;max-height:58px;overflow:auto}.achievements span{padding:4px 6px;font-size:7px}
+}
+
+/* FIX v3.2 — notificações nunca podem bloquear respostas/CONTINUAR. */
+.toast{pointer-events:none!important}
+
+/* v3.4 — keyboard focus and safe overflow inside short LMS viewports. */
+button:focus-visible,input:focus-visible,[tabindex]:focus-visible{
+  outline:3px solid #fff;outline-offset:3px;
+}
+@media (min-width:901px) and (max-height:820px){
+  .heroScreen,.createPanel,.mapPanel,.bossIntro,
+  .eventPanel,.checkpoint,.resultPanel,.finalPanel{
+    overflow:auto;
+  }
+  /* Flex items retain their readable size and can be scrolled into view. */
+  .bossIntro,.eventPanel,.checkpoint,.resultPanel,.finalPanel{
+    justify-content:safe center;
+  }
+  .bossIntro>*,.eventPanel>*,.checkpoint>*,.resultPanel>*,.finalPanel>*{
+    flex-shrink:0;
+  }
+  .mapPanel:focus-within,.createPanel:focus-within{scroll-padding:10px}
+}

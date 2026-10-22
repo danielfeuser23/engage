@@ -1,0 +1,36 @@
+/* Nine reusable pixel seals. Decoration never receives focus or intercepts input. */
+.bossIdentity,.bossOutcome{display:flex;align-items:center;gap:14px;width:100%;max-width:690px;padding:12px 14px;border:1px solid var(--boss-accent,#c5a2ff);background:#0b1c2ceF;color:#e3eef3;text-align:left;position:relative;z-index:3;box-sizing:border-box;overflow-wrap:anywhere}
+.bossIdentity{margin:12px auto 16px}
+.bossIdentity>div,.bossOutcome>div{min-width:0;flex:1}
+.bossIdentity strong,.bossOutcome strong{display:block;color:var(--boss-accent,#c5a2ff);font:800 10px/1.5 "Courier New",monospace;letter-spacing:.03em}
+.bossIdentity p,.bossOutcome p{font:400 13px/1.5 Arial,sans-serif;margin:5px 0;color:#e3eef3;max-width:none}
+.bossIdentity small,.bossOutcome small{display:block;font:400 11px/1.5 Arial,sans-serif;color:#c0d3de}
+.bossOutcome{margin:13px 0 0;max-width:none;border-left-width:3px}
+.bossOutcomeAssist{border-style:dashed;border-left-style:solid}
+.bossSignature{position:relative;display:block;flex:0 0 54px;width:54px;height:58px;color:var(--boss-accent,#c5a2ff);isolation:isolate;pointer-events:none;image-rendering:pixelated}
+.bossSignature i{position:absolute;display:block;box-sizing:border-box;border:2px solid currentColor;background:#132735}
+.bossSignature b{position:absolute;z-index:4;bottom:-2px;left:0;right:0;text-align:center;color:currentColor;font:900 10px/1 "Courier New",monospace;letter-spacing:.03em}
+.bossSignature[data-boss-signature="contracts"] i:nth-child(1){width:33px;height:39px;left:6px;top:2px;background:repeating-linear-gradient(transparent 0 5px,#7499a6 5px 7px,transparent 7px 11px)}
+.bossSignature[data-boss-signature="contracts"] i:nth-child(2){width:24px;height:13px;left:25px;top:29px;transform:rotate(-9deg);background:currentColor}
+.bossSignature[data-boss-signature="contracts"] i:nth-child(3){width:10px;height:14px;left:32px;top:17px}
+.bossSignature[data-boss-signature="bills"] i{width:34px;height:24px}
+.bossSignature[data-boss-signature="bills"] i:nth-child(1){left:1px;top:4px}.bossSignature[data-boss-signature="bills"] i:nth-child(2){left:10px;top:12px}.bossSignature[data-boss-signature="bills"] i:nth-child(3){left:19px;top:20px;background:repeating-linear-gradient(90deg,#132735 0 4px,currentColor 4px 6px,#132735 6px 10px)}
+.bossSignature[data-boss-signature="shadow"] i:nth-child(1){left:2px;top:18px;width:14px;height:27px}.bossSignature[data-boss-signature="shadow"] i:nth-child(2){left:20px;top:4px;width:14px;height:41px}.bossSignature[data-boss-signature="shadow"] i:nth-child(3){left:38px;top:18px;width:14px;height:27px}
+.bossSignature[data-boss-signature="hydra"] i{width:18px;height:21px;top:5px;box-shadow:0 16px 0 -6px currentColor}.bossSignature[data-boss-signature="hydra"] i:nth-child(1){left:0;top:14px}.bossSignature[data-boss-signature="hydra"] i:nth-child(2){left:18px}.bossSignature[data-boss-signature="hydra"] i:nth-child(3){left:36px;top:14px}
+.bossSignature[data-boss-signature="calendar"] i:nth-child(1){left:5px;top:6px;width:44px;height:36px;background:repeating-linear-gradient(90deg,transparent 0 8px,currentColor 8px 10px,transparent 10px 14px)}
+.bossSignature[data-boss-signature="calendar"] i:nth-child(2){left:5px;top:6px;width:44px;height:10px;background:currentColor}.bossSignature[data-boss-signature="calendar"] i:nth-child(3){left:14px;top:0;width:5px;height:12px;box-shadow:20px 0 0 currentColor}
+.bossSignature[data-boss-signature="key"] i:nth-child(1){left:2px;top:8px;width:25px;height:25px;border-width:5px}.bossSignature[data-boss-signature="key"] i:nth-child(2){left:23px;top:18px;width:29px;height:7px;background:currentColor}.bossSignature[data-boss-signature="key"] i:nth-child(3){left:41px;top:24px;width:10px;height:10px;background:currentColor}
+.bossSignature[data-boss-signature="transfer"] i:nth-child(1){left:1px;top:5px;width:27px;height:33px}.bossSignature[data-boss-signature="transfer"] i:nth-child(2){left:25px;top:14px;width:27px;height:33px}.bossSignature[data-boss-signature="transfer"] i:nth-child(3){left:17px;top:22px;width:23px;height:8px;background:currentColor;border-color:#0b1c2c}
+.bossSignature[data-boss-signature="shield"] i:nth-child(1){left:5px;top:3px;width:44px;height:44px;background:currentColor;clip-path:polygon(0 0,100% 0,100% 60%,50% 100%,0 60%)}
+.bossSignature[data-boss-signature="shield"] i:nth-child(2){left:11px;top:9px;width:32px;height:30px;border:0;background:#132735;clip-path:polygon(0 0,100% 0,100% 60%,50% 100%,0 60%)}
+.bossSignature[data-boss-signature="shield"] i:nth-child(3){left:23px;top:14px;width:8px;height:17px;background:currentColor}
+.bossSignature[data-boss-signature="vault"] i:nth-child(1){left:2px;top:3px;width:50px;height:43px;border-width:4px}.bossSignature[data-boss-signature="vault"] i:nth-child(2){left:19px;top:14px;width:17px;height:17px;border-width:4px}.bossSignature[data-boss-signature="vault"] i:nth-child(3){left:6px;top:12px;width:4px;height:5px;background:currentColor;box-shadow:0 17px 0 currentColor,37px 0 0 currentColor,37px 17px 0 currentColor}
+.bossMoment{position:absolute;left:50%;top:49%;transform:translate(-50%,-50%);display:flex;align-items:center;gap:10px;max-width:calc(100% - 32px);padding:9px 12px;background:#071826ed;border:2px solid var(--boss-accent);z-index:11;pointer-events:none;animation:bossSealMoment 650ms steps(4,end) both;box-sizing:border-box}
+.bossMoment span:last-child{font:900 10px/1.5 "Courier New",monospace;color:var(--boss-accent);text-align:left}
+.bossMoment .bossSignature{flex-basis:43px;width:43px;height:48px;transform:scale(.8);transform-origin:center}
+.bossMomentAssist{border-style:dashed}.bossMomentStatic{animation:none;top:auto;bottom:8px;transform:translateX(-50%);padding:4px 9px}
+.bossMomentStatic .bossSignature{display:none}
+@keyframes bossSealMoment{0%{opacity:0;transform:translate(-50%,-46%)}18%,75%{opacity:1;transform:translate(-50%,-50%)}100%{opacity:0;transform:translate(-50%,-53%)}}
+.reduce-motion .bossMoment{animation:none;top:auto;bottom:8px;transform:translateX(-50%);padding:4px 9px}.reduce-motion .bossMoment .bossSignature{display:none}
+@media(prefers-reduced-motion:reduce){.bossMoment{animation:none;top:auto;bottom:8px;transform:translateX(-50%);padding:4px 9px}.bossMoment .bossSignature{display:none}}
+@media(max-width:580px){.bossIdentity,.bossOutcome{padding:10px;gap:10px}.bossIdentity p,.bossOutcome p{font-size:12px;line-height:1.55}.bossIdentity small,.bossOutcome small{font-size:10px}.bossSignature{flex-basis:48px;transform:scale(.9);transform-origin:center}.bossMoment{gap:4px;padding:6px 8px}.bossMoment span:last-child{font-size:9px}}

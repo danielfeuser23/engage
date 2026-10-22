@@ -1,0 +1,32 @@
+{
+  "methods": [
+    "LMSCommit",
+    "LMSFinish",
+    "LMSGetValue",
+    "LMSInitialize",
+    "LMSSetValue"
+  ],
+  "setkeys": [
+    "cmi.core.exit",
+    "cmi.core.lesson_location",
+    "cmi.core.lesson_status",
+    "cmi.core.score.max",
+    "cmi.core.score.min",
+    "cmi.core.score.raw",
+    "cmi.core.session_time",
+    "cmi.suspend_data"
+  ],
+  "store": {
+    "cmi.core.lesson_status": "passed",
+    "cmi.core.score.min": "0",
+    "cmi.core.score.max": "100",
+    "cmi.core.score.raw": "100",
+    "cmi.suspend_data": "{\"v\":2,\"scr\":\"final\",\"n\":\"SCORMQA\",\"c\":\"guardiao\",\"b\":2,\"q\":45,\"ph\":\"q\",\"ca\":[45,45,45],\"an\":[45,45,45],\"xp\":18930,\"g\":2105,\"h\":100,\"st\":135,\"bs\":135,\"dead\":0,\"bd\":9,\"ach\":[\"blood\",\"inv5\",\"mind10\",\"bosses3\",\"perfect\",\"proc2\",\"guard\"],\"inv\":[\"escudo_n1\"],\"seed\":100000,\"mute\":true,\"rm\":true,\"sel\":-1,\"ok\":null,\"rw\":null,\"bi\":\"2-44\",\"ev\":null,\"la\":\"cofre_n1\",\"done\":true}",
+    "cmi.core.lesson_location": "final|2|45|q",
+    "cmi.core.exit": "",
+    "cmi.core.session_time": "0000:00:01.00"
+  },
+  "commits": 167,
+  "finishes": 1,
+  "initializes": 1
+}

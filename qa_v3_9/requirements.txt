@@ -1,0 +1,3 @@
+# Development/QA only; no Python package is needed inside the SCORM course.
+playwright>=1.51,<2
+Pillow>=10,<13

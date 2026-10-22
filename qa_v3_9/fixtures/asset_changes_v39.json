@@ -1,0 +1,329 @@
+{
+  "method": "Exact final v3.9 runtime export hashes; old hashes were independently verified against preserved v3.8 during release QA. No old media is needed to rerun the current asset audit.",
+  "assets": [
+    {
+      "asset": "assets/sprites/heroes/investigador_idle.gif",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": "979c4ee0ee831277cf9617bba36761f64bcfd3332015c53456d6a36365bd75c6",
+      "sha256": "e06d81612b88cec9c1a3e372373aaabe6e7f323e4b43a606d488f356a4fe5149"
+    },
+    {
+      "asset": "assets/sprites/heroes/investigador_attack.gif",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": "c2247719a3ce7b26e72aec4835ad4c01c0fcbd57fbac97f8dc78273afc27d9bd",
+      "sha256": "d3e219f017af27dcdb6629e4314b3ae84ef4976f0ae8fb11f8c59584fd6b2e98"
+    },
+    {
+      "asset": "assets/sprites/heroes/investigador_hurt.gif",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": "6d4c3bc29934d66b83493c76603232c7bd629f8d8ccf5b51b06347bf96a8454e",
+      "sha256": "3116eab53824f04a3323f6e25432ce064f0ddf013bffccb4dce5c9e16d52ce73"
+    },
+    {
+      "asset": "assets/sprites/heroes/investigador_victory.gif",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": "d57e361352e80b5993391035ef2e57836a8319d0c0f17fbed1ca66b16a2720b6",
+      "sha256": "768590728c183fc5da0e0f84339f3c9ac42d2509668aa78b9f1a442a18028b36"
+    },
+    {
+      "asset": "assets/sprites/heroes/investigador_defeat.gif",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": "b720a72d8176963392a54e36de054768e3ecca156c8945aae10e95dc93152e50",
+      "sha256": "8481786321734ba33063fade81ce32317fb652b13b7a612bebd691b389344296"
+    },
+    {
+      "asset": "assets/sprites/heroes/investigador_xp.gif",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": "2aa5757696a54a0268510e8f055747feb0a73c42b6e7a4423eb899e360fdbdab",
+      "sha256": "91e9abf839859af38fb9c216c82c604e541966a002c0237735fad12a795d0407"
+    },
+    {
+      "asset": "assets/sprites/heroes/guardiao_idle.gif",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": "c301c44dfd86d77c4c57bfe2947ebe3ab7d65802607f1f050f6fa0097ba3a2e6",
+      "sha256": "8382986c1526e744b31d6a961583daaab01b3c9a1f57e2b246429fe80ced7174"
+    },
+    {
+      "asset": "assets/sprites/heroes/guardiao_attack.gif",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": "2c51dc9de73823d9ddbffbf5953865236c4896c9c5615782d6f6fba30d66359e",
+      "sha256": "9a5074e2eec522e1ac3d9c16074630704dcf151e62e5ed8031e493ca48a79dec"
+    },
+    {
+      "asset": "assets/sprites/heroes/guardiao_hurt.gif",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": "43bda82700f54ee5b1a6f0fe50544d999895f11034a64c8ae12e217d10f499f7",
+      "sha256": "48188dc1ce470872b2efddcd4a6ffd4f81df482b5b2abd2eb0ac4b5b7242c24b"
+    },
+    {
+      "asset": "assets/sprites/heroes/guardiao_victory.gif",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": "ccae8c9f1981c69eb924aed55127ce56a3fca02a775e526c26700a6701a08ce7",
+      "sha256": "274602da85b7d9924e2ab1f595a44d5a1f345f90e826ed62da0ffc5995adcc3f"
+    },
+    {
+      "asset": "assets/sprites/heroes/guardiao_defeat.gif",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": "87404e45099cef5fc03fe39e9c10b317f65b64a5283c285fb1c703b77c0ac93d",
+      "sha256": "4cbe1d66464135b033f45e3f7a2de82878d073db64c94ed979fc6ae8c4a847e5"
+    },
+    {
+      "asset": "assets/sprites/heroes/guardiao_xp.gif",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": "259c4a564336771144d194837ac421906376dabf00c981cfe4e5a016c68a5657",
+      "sha256": "400660af950a42beb78581b624cd062e58cb70baf140d2c48a460e975c8c1562"
+    },
+    {
+      "asset": "assets/sprites/heroes/estrategista_idle.gif",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": "b7cbf054b813a306d10f7c0586881986636ae821432780273aeae39bcc3907b3",
+      "sha256": "d1299ee77783478c66040233675f9751c36c8b604ea6e3b946a3d310f13c2df7"
+    },
+    {
+      "asset": "assets/sprites/heroes/estrategista_attack.gif",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": "7d762170b9eb06bdc8ed5356453d03962a742a9a3350a40f34db21a35f0e66d2",
+      "sha256": "70de54f054b5155284543b11ebdb3aa02fae1f90a34c0cb90b73dd1304fff208"
+    },
+    {
+      "asset": "assets/sprites/heroes/estrategista_hurt.gif",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": "4f2dcb1f48370ecf7307969094593a7555ae51f81ac29b28dfcc461f7dcd9692",
+      "sha256": "36083564d9b0122c0c21805701ec25f5d565fab43b588355202e59d90e7650a9"
+    },
+    {
+      "asset": "assets/sprites/heroes/estrategista_victory.gif",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": "6fc546ba9cecc7106cfbf5eefd3f10cc507db36f9b6eee08b02a002526ce0f07",
+      "sha256": "8dd1c1193b1dc08b1000e28cd47d15a6ce20a8fb5dff77469c433ea168951b78"
+    },
+    {
+      "asset": "assets/sprites/heroes/estrategista_defeat.gif",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": "d87540c2d97fef05fb4837ac810218c57e916ae6176584289b2682adb0ee55cf",
+      "sha256": "9b7acf171019a6fd2794d3ff002066511a9272300c40207be6dae0fea66e616a"
+    },
+    {
+      "asset": "assets/sprites/heroes/estrategista_xp.gif",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": "8a7da31775b9f09837032f60603c5dfc2b997e3931e8296f57c813fe477d3625",
+      "sha256": "916a45fb5ee3d31e43d72e23141c54a2969011d0edf696af7aa0a33c24c1fa7a"
+    },
+    {
+      "asset": "assets/sprites/bosses/boss_mestre_contratos.gif",
+      "native_size": [
+        128,
+        128
+      ],
+      "old_sha256": "7fcad3f740aadf1ecce27a7a0ebc664a8f08f3c21d3f19382a54d6419944d5f9",
+      "sha256": "113176749c6eeea5fddbc23b53fd6e7eef6188cf868cc67c0934eb8f105f58e4"
+    },
+    {
+      "asset": "assets/sprites/bosses/boss_lorde_boletos.gif",
+      "native_size": [
+        128,
+        128
+      ],
+      "old_sha256": "cf86caea6bae14f0c804d8ce0fc9a53da024d893b80c2e60bc8a1625f3b10954",
+      "sha256": "f1c454cc780dd8c59fded8209745c4f28a2ad234713c6308e9a72e6c2e2b914b"
+    },
+    {
+      "asset": "assets/sprites/bosses/boss_espectro_serasa.gif",
+      "native_size": [
+        128,
+        128
+      ],
+      "old_sha256": "dccdd54fd1c837d0d2b542728659b037ae7cce7433cbfb1aa748b206615cfc48",
+      "sha256": "815b36d537ff9ec3284d79d6acc54cb246ef21e9fc518e0224315fe0f66dc650"
+    },
+    {
+      "asset": "assets/sprites/bosses/boss_hidra_seguros.gif",
+      "native_size": [
+        128,
+        128
+      ],
+      "old_sha256": "b6dad3a0269c28f93c3325163568f43c58a86c70e5bad5d9ea8bb4d497b6cefe",
+      "sha256": "8958559475db19a0c9676b7de60e683a2aa7c4d8f90181493909f379872cdac3"
+    },
+    {
+      "asset": "assets/sprites/bosses/boss_arquimago_reorg.gif",
+      "native_size": [
+        128,
+        128
+      ],
+      "old_sha256": "a65baf7e326d0d12ad6ae5fb572d7149a6480420adac2f588e721081d571db1d",
+      "sha256": "3013ec9c31c8dd8da222c157c157db97566c485984f27101523dca710d4144bc"
+    },
+    {
+      "asset": "assets/sprites/bosses/boss_dragao_leasing.gif",
+      "native_size": [
+        128,
+        128
+      ],
+      "old_sha256": "59953a3a493952200c66cc1c7795fd06a4b90e6298eef8faa7ebbf4faaa23982",
+      "sha256": "2df2e4cf26638f29901a839891bd6044d1065ec440b000d2718222c5a2fc175c"
+    },
+    {
+      "asset": "assets/sprites/bosses/boss_rei_cessionario.gif",
+      "native_size": [
+        128,
+        128
+      ],
+      "old_sha256": "3b2eb3d826515434c8c01ec1ac916f341d2f0fe3e2f25bc1f428b45be3031b7b",
+      "sha256": "a8398c46d05145c95a21cb4c2f24c163ff87452fea097502254a0303e0cc8cf3"
+    },
+    {
+      "asset": "assets/sprites/bosses/boss_colosso_garantia.gif",
+      "native_size": [
+        128,
+        128
+      ],
+      "old_sha256": "cc33bcf8bd6c6f80cdb4896bb734547517a1f82e0b4b101a4dacfb7ccd9ea704",
+      "sha256": "c6e5ec5ee86a7fe411419821d2b6fa36b31245f175865e33e24a77dec5ce56e2"
+    },
+    {
+      "asset": "assets/sprites/bosses/boss_guardiao_cofre.gif",
+      "native_size": [
+        128,
+        128
+      ],
+      "old_sha256": "9ab9c0a4873de56f115f2ccbe3e57f227f4d6f1a292a26775822969924e33584",
+      "sha256": "9f952482cc95c8d19533979f408c66faea830e18fd6f852a2c7e68fa703285c1"
+    },
+    {
+      "asset": "assets/sprites/monsters/sentinela_atendimento.gif",
+      "native_size": [
+        96,
+        96
+      ],
+      "old_sha256": "81259f30c4ba61cf599c2c0e102ec420bccb3b471a716e6aa5b7d5cf6a13ec9c",
+      "sha256": "3f0f029643a419788569292fb7cb513f0804a7a6e5d6ab07bc3ff31574c4306f"
+    },
+    {
+      "asset": "assets/sprites/monsters/bug_front.gif",
+      "native_size": [
+        96,
+        96
+      ],
+      "old_sha256": "4c6f20a5afdafee0587f4a906a9f14d62dc4ac4c76fa39a3913ad2a964240afd",
+      "sha256": "2466ea3111c11634fbbe02c7d815dec8a3452740de1a17aa0e5ed860c4b7daf9"
+    },
+    {
+      "asset": "assets/sprites/monsters/golem_gravame.gif",
+      "native_size": [
+        96,
+        96
+      ],
+      "old_sha256": "83bdf74bf5e7f595ba7da47f15ab22cbd07476e0b782d828304119a675c1c5fb",
+      "sha256": "5cff5e0de7bfcd6321154b14b6e2c10c722930f2e28913f23378dfe538ee09f7"
+    },
+    {
+      "asset": "assets/sprites/monsters/mimico_boleto.gif",
+      "native_size": [
+        96,
+        96
+      ],
+      "old_sha256": "59fabd0a36d940aa4bef99ff981c348c105ad7a15dd31f64a70f03121ce17f9d",
+      "sha256": "e598fecc29059ddfa47b2e62e56460e1d96a51dc81b0a0bedbe08729fe9d9083"
+    },
+    {
+      "asset": "assets/sprites/monsters/guardiao_spf.gif",
+      "native_size": [
+        96,
+        96
+      ],
+      "old_sha256": "53b62bd916f07575beef5dcbba61248420ca85efc22bdae71d562bc2617a5208",
+      "sha256": "9e2c04c304a90ec5a7ed438686c21725c6abecab2d113e4494f5243969958706"
+    },
+    {
+      "asset": "assets/sprites/monsters/arauto_cessao.gif",
+      "native_size": [
+        96,
+        96
+      ],
+      "old_sha256": "a4d310e0d484b2c378b9fcd7b7c09c63813438760421331b50ce686817d1fcbb",
+      "sha256": "a25361e826b567385a203c7ba1601a9bc662dba42e6992a473744f62491c5007"
+    },
+    {
+      "asset": "assets/sprites/npcs/lia_idle.png",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": null,
+      "sha256": "ddf9bcd7bb3775ad778c0fadd5ca90a864b38bcf925420a4c14b300a4cd65cb7"
+    },
+    {
+      "asset": "assets/sprites/npcs/ravi_idle.png",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": null,
+      "sha256": "6724ef2d9613a807d1830a5f29180333d89c8df68e2d46d385dbe391193fa933"
+    },
+    {
+      "asset": "assets/sprites/npcs/nara_idle.png",
+      "native_size": [
+        64,
+        64
+      ],
+      "old_sha256": null,
+      "sha256": "87eff8186dbdb2c8538eb8fff7df091dfc4f2fa9ac552fce95ddb4a4a0b8a0b1"
+    }
+  ]
+}
