@@ -1,0 +1,103 @@
+[
+  {
+    "before": 18,
+    "metrics": {
+      "q": {
+        "sh": 41,
+        "ch": 41,
+        "sw": 721,
+        "cw": 721
+      },
+      "answers": [
+        {
+          "sh": 48,
+          "ch": 48,
+          "sw": 717,
+          "cw": 717,
+          "spanH": 15,
+          "spanW": 91
+        },
+        {
+          "sh": 48,
+          "ch": 48,
+          "sw": 717,
+          "cw": 717,
+          "spanH": 15,
+          "spanW": 553
+        },
+        {
+          "sh": 48,
+          "ch": 48,
+          "sw": 717,
+          "cw": 717,
+          "spanH": 15,
+          "spanW": 150
+        },
+        {
+          "sh": 48,
+          "ch": 48,
+          "sw": 717,
+          "cw": 717,
+          "spanH": 15,
+          "spanW": 212
+        }
+      ]
+    }
+  },
+  {
+    "feedback": 20,
+    "metrics": {
+      "sh": 77,
+      "ch": 77,
+      "sw": 717,
+      "cw": 717,
+      "overflowY": "auto",
+      "text": "DECISÃO CORRETA!\n\nGravame cancelado pode ocorrer quando o documento não foi emitido no prazo; a orientação é emitir sem alienação.\n\n+125 XP\n+10"
+    }
+  },
+  {
+    "before": 81,
+    "metrics": {
+      "q": {
+        "sh": 20,
+        "ch": 20,
+        "sw": 721,
+        "cw": 721
+      },
+      "answers": [
+        {
+          "sh": 48,
+          "ch": 48,
+          "sw": 717,
+          "cw": 717,
+          "spanH": 15,
+          "spanW": 99
+        },
+        {
+          "sh": 48,
+          "ch": 48,
+          "sw": 717,
+          "cw": 717,
+          "spanH": 15,
+          "spanW": 93
+        },
+        {
+          "sh": 48,
+          "ch": 48,
+          "sw": 717,
+          "cw": 717,
+          "spanH": 15,
+          "spanW": 97
+        },
+        {
+          "sh": 48,
+          "ch": 48,
+          "sw": 717,
+          "cw": 717,
+          "spanH": 15,
+          "spanW": 639
+        }
+      ]
+    }
+  }
+]

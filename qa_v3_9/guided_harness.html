@@ -1,0 +1,16 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QA isolado — revisão guiada</title>
+<link rel="stylesheet" href="/v3_9/css/game.css"><link rel="stylesheet" href="/v3_9/css/expansion.css"><link rel="stylesheet" href="/v3_9/css/presentation.css"><link rel="stylesheet" href="/v3_9/css/refinements.css"><link rel="stylesheet" href="/v3_9/css/guided-review.css">
+</head><body><main class="page"><section class="pixelPanel featurePanel" id="qaApp"></section></main>
+<script src="/v3_9/js/questions.js"></script><script src="/v3_9/js/progression.js"></script><script src="/v3_9/js/guided-review.js"></script>
+<script>
+// Directed fixture harness; never part of the SCORM course.
+window.qaView={theme:'',step:0};window.qaSaveOK=true;
+window.qaState=JSON.parse(localStorage.getItem('qa_guided')||'null');
+window.qaRender=function(message=''){
+ if(!qaState)return;
+ document.getElementById('qaApp').innerHTML=GuardianReview.markup(qaState,GAME_DATA,{view:qaView,message,confirmedSave:qaSaveOK});
+ GuardianReview.bind(qaState,GAME_DATA,{view:qaView,save:()=>{if(!qaSaveOK)return false;localStorage.setItem('qa_guided',JSON.stringify(qaState));return true;},render:qaRender});
+};
+if(qaState){Progression.normalize(qaState,qaState);GuardianReview.normalize(qaState,qaState);qaRender();}
+</script></body></html>

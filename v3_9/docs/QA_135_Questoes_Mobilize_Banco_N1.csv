@@ -1,0 +1,136 @@
+﻿Questão;Tema;Monstro;Resultado planejado no QA;HP após resposta;XP;Ouro;Combo;Fluxo UI
+1;Introdução;Oráculo do Portal;ACERTO;100;100;10;1;PASSOU
+2;Papel do N1;Escriba do Contrato;ACERTO;100;200;20;2;PASSOU
+3;Financiamento;Oráculo do Portal;ACERTO;100;300;30;3;PASSOU
+4;CDC;Sentinela do Atendimento;ACERTO;100;400;40;4;PASSOU
+5;Leasing;Guardião do Arrendamento;ACERTO;100;510;50;5;PASSOU
+6;CDC x Leasing;Cavaleiro do Leasing;ACERTO;100;620;110;6;PASSOU
+7;Atendimento;Slime do Cadastro;ACERTO;100;730;120;7;PASSOU
+8;Confirmação de dados;Oráculo do Portal;ACERTO;100;840;130;8;PASSOU
+9;Retorno de ligação;Escriba do Contrato;ACERTO;100;950;140;9;PASSOU
+10;Sistemas;Espectro SNG;ACERTO;100;1075;150;10;PASSOU
+11;Sistemas;Oráculo NOVAR;ERRO;85;1095;150;0;PASSOU
+12;Sistemas;Pixie LEVY;ERRO;70;1115;150;0;PASSOU
+13;Portal do Cliente;Bug do FRONT;ERRO;55;1135;150;0;PASSOU
+14;Documentos;Mímico do CRV;ERRO;40;1155;150;0;PASSOU
+15;Gravame;Mestre dos Contratos;ERRO;15;1175;150;0;PASSOU
+16;Gravame;Corvo Dourado da Wiki;ERRO;100;1195;125;0;PASSOU
+17;Gravame;Golem do Gravame;ACERTO;100;1295;135;1;PASSOU
+18;Gravame;Golem do Gravame;ACERTO;100;1395;145;2;PASSOU
+19;Gravame;Golem do Gravame;ACERTO;100;1495;155;3;PASSOU
+20;Gravame;Corrente Alienada;ACERTO;100;1595;165;4;PASSOU
+21;Leasing e Gravame;Corrente Alienada;ACERTO;100;1765;175;5;PASSOU
+22;Boleto;Goblin do Vencimento;ACERTO;100;1875;185;6;PASSOU
+23;Boleto;Slime dos Juros;ACERTO;100;1985;195;7;PASSOU
+24;Boleto;Slime dos Juros;ERRO;85;2005;195;0;PASSOU
+25;Boleto;Slime dos Juros;ACERTO;85;2105;205;1;PASSOU
+26;Boleto;Slime dos Juros;ACERTO;85;2205;265;2;PASSOU
+27;Boleto;Mímico de Ouro;ACERTO;85;2385;315;3;PASSOU
+28;Boleto / DDA;Devorador de Parcelas;ACERTO;85;2485;325;4;PASSOU
+29;Boleto;Devorador de Parcelas;ACERTO;85;2595;335;5;PASSOU
+30;Boleto;Lorde dos Boletos;ACERTO;85;2837;370;6;PASSOU
+31;Inversão de parcela;Fantasma da Duplicidade;ACERTO;85;2947;380;7;PASSOU
+32;Inversão de parcela;Colecionador de Comprovantes;ACERTO;85;3057;390;8;PASSOU
+33;Inversão / Estorno;Slime da Baixa;ERRO;70;3077;390;0;PASSOU
+34;Pagamento em duplicidade;Colecionador de Comprovantes;ACERTO;70;3177;400;1;PASSOU
+35;Pagamento em duplicidade;Fantasma da Duplicidade;ACERTO;70;3277;410;2;PASSOU
+36;Baixa de pagamento;Cavaleiro da Parcela Invertida;ACERTO;90;3377;420;3;PASSOU
+37;Baixa de pagamento;Fantasma da Duplicidade;ACERTO;90;3477;430;4;PASSOU
+38;Carnê;Slime Dourado dos Juros;ACERTO;90;3675;480;5;PASSOU
+39;Taxas;Imp do IOF;ACERTO;90;3785;490;6;PASSOU
+40;Taxas;Imp do IOF;ACERTO;90;3895;500;7;PASSOU
+41;Taxa zero;Imp do IOF;ACERTO;90;4005;510;8;PASSOU
+42;Alteração cadastral;Sentinela do Atendimento;ERRO;75;4025;510;0;PASSOU
+43;Cobrança;Carrasco dos Juros;ACERTO;75;4125;520;1;PASSOU
+44;Restrição / Serasa;Coletor Sombrio;ACERTO;75;4225;530;2;PASSOU
+45;Restrição / Serasa;Espectro Supremo do Serasa;ACERTO;75;4445;565;3;PASSOU
+46;Cancelamento;Guardião da Restrição;ACERTO;100;4545;575;4;PASSOU
+47;Cancelamento;Espectro do Serasa;ACERTO;100;4655;585;5;PASSOU
+48;Cancelamento / Vencimento;Carrasco dos Juros;ACERTO;100;4765;595;6;PASSOU
+49;Cancelamento de contrato;Carrasco dos Juros;ACERTO;100;4875;605;7;PASSOU
+50;Seguro Proteção Financeira;Quimera Tranquilidade;ACERTO;100;4985;615;8;PASSOU
+51;Seguro Tranquilidade;Quimera Tranquilidade;ERRO;85;5005;565;0;PASSOU
+52;Seguro Tranquilidade;Quimera Tranquilidade;ACERTO;85;5105;575;1;PASSOU
+53;Tranquilidade Total;Quimera Tranquilidade;ACERTO;85;5205;585;2;PASSOU
+54;Garantia Estendida;Slime Dourado dos Juros;ACERTO;85;5385;635;3;PASSOU
+55;Garantia Estendida;Espírito da Proteção;ERRO;70;5405;635;0;PASSOU
+56;Garantia Mecânica;Espírito da Proteção;ACERTO;70;5505;695;1;PASSOU
+57;SPF – Ressarcimento;Espírito da Proteção;ACERTO;70;5605;705;2;PASSOU
+58;SPF – Ressarcimento;Guardião SPF;ACERTO;70;5705;715;3;PASSOU
+59;Cancelamento de seguro;Espectro do Serasa;ACERTO;70;5805;725;4;PASSOU
+60;Falecimento;Hidra dos Seguros;ERRO;45;5825;725;0;PASSOU
+61;Falecimento;Espectro da Franquia;ACERTO;45;5925;735;1;PASSOU
+62;Reorganização Financeira;Mercador da Renegociação;ACERTO;45;6025;745;2;PASSOU
+63;Reorganização Financeira;Mercador da Renegociação;ACERTO;45;6125;755;3;PASSOU
+64;Reorganização Financeira;Oráculo da Parcela Balão;ACERTO;45;6225;765;4;PASSOU
+65;Reorganização Financeira;Mercador da Renegociação;ACERTO;45;6335;775;5;PASSOU
+66;Reorganização Financeira;Mago da Reorganização;ACERTO;45;6445;835;6;PASSOU
+67;Reorganização Financeira;Mercador da Renegociação;ACERTO;45;6555;845;7;PASSOU
+68;Reorganização Financeira;Mago da Reorganização;ACERTO;45;6665;855;8;PASSOU
+69;Reorganização Financeira;Oráculo da Parcela Balão;ERRO;30;6685;855;0;PASSOU
+70;Reorganização Financeira;Cronomante do CET;ACERTO;30;6785;865;1;PASSOU
+71;Cancelamento da Reorganização;Espectro do Serasa;ACERTO;30;6945;875;2;PASSOU
+72;Cancelamento da Reorganização;Guardião da Restrição;ACERTO;30;7045;885;3;PASSOU
+73;Cancelamento da Reorganização;Coletor Sombrio;ACERTO;30;7145;895;4;PASSOU
+74;Cancelamento da Reorganização;Carrasco dos Juros;ACERTO;30;7255;905;5;PASSOU
+75;Parcela Balão;Arquimago da Reorganização;ACERTO;30;7497;940;6;PASSOU
+76;Parcela Balão;Mercador da Renegociação;ERRO;15;7517;940;0;PASSOU
+77;Troca Fácil / Nissan Replay;Oráculo do Portal;ACERTO;15;7617;950;1;PASSOU
+78;Renegociação;Oráculo da Parcela Balão;ERRO;100;7637;925;0;PASSOU
+79;Renegociação;Cronomante do CET;ACERTO;100;7737;935;1;PASSOU
+80;Encerramento de Leasing;Cavaleiro do Leasing;ACERTO;100;7837;945;2;PASSOU
+81;Encerramento de Leasing;Espectro do VRG;ACERTO;100;7937;955;3;PASSOU
+82;Encerramento de Leasing;Espectro do VRG;ACERTO;100;8037;965;4;PASSOU
+83;Encerramento de Leasing;Espectro do VRG;ACERTO;100;8147;975;5;PASSOU
+84;Encerramento de Leasing;Guardião do Arrendamento;ACERTO;100;8257;985;6;PASSOU
+85;Encerramento de Leasing;Guardião do Arrendamento;ACERTO;100;8367;995;7;PASSOU
+86;Encerramento de Leasing;Guardião do Arrendamento;ACERTO;100;8477;1005;8;PASSOU
+87;Encerramento de Leasing;Guardião do Arrendamento;ERRO;85;8497;1005;0;PASSOU
+88;Rescisão de Leasing;Devorador da Rescisão;ACERTO;85;8597;1015;1;PASSOU
+89;Rescisão de Leasing;Devorador da Rescisão;ACERTO;85;8697;1025;2;PASSOU
+90;Rescisão de Leasing;Dragão do Leasing;ACERTO;85;8917;1060;3;PASSOU
+91;Cessão de Direitos;Guardião do Contrato;ACERTO;100;9017;1070;4;PASSOU
+92;Cessão de Direitos;Arauto da Cessão;ACERTO;100;9127;1080;5;PASSOU
+93;Cessão de Direitos;Arauto da Cessão;ACERTO;100;9237;1090;6;PASSOU
+94;Cessão de Direitos;Arauto da Cessão;ACERTO;100;9347;1100;7;PASSOU
+95;Cessão de Direitos;Arauto da Cessão;ACERTO;100;9457;1110;8;PASSOU
+96;Cessão de Direitos;Cavaleiro Cedente;ERRO;85;9477;1160;0;PASSOU
+97;Cessão de Direitos;Arauto da Cessão;ACERTO;85;9577;1170;1;PASSOU
+98;Cessão de Direitos;Cavaleiro Cedente;ACERTO;85;9677;1180;2;PASSOU
+99;Cessão de Direitos;Arauto da Cessão;ACERTO;85;9777;1190;3;PASSOU
+100;Cessão de Direitos;Espectro Cessionário;ACERTO;85;9877;1200;4;PASSOU
+101;Cessão de Direitos;Guardião do Contrato;ERRO;70;9957;1200;0;PASSOU
+102;Cessão de Direitos;Espectro Cessionário;ACERTO;70;10057;1210;1;PASSOU
+103;Cessão de Direitos;Cavaleiro Cedente;ACERTO;70;10157;1220;2;PASSOU
+104;Cessão de Direitos;Arauto da Cessão;ACERTO;70;10257;1230;3;PASSOU
+105;Cessão de Direitos;Rei Cessionário;ERRO;45;10277;1230;0;PASSOU
+106;Substituição de Garantia;Corvo Dourado da Wiki;ACERTO;45;10457;1280;1;PASSOU
+107;Substituição de Garantia;Fera da Vistoria;ACERTO;45;10557;1290;2;PASSOU
+108;Substituição de Garantia;Guardião do Chassi;ACERTO;45;10657;1300;3;PASSOU
+109;Substituição de Garantia;Fera da Vistoria;ACERTO;45;10757;1310;4;PASSOU
+110;Substituição de Garantia;Guardião do Chassi;ACERTO;45;10867;1320;5;PASSOU
+111;Substituição de Garantia;Golem da Garantia;ACERTO;100;10977;1330;6;PASSOU
+112;Substituição de Garantia;Guardião do Chassi;ACERTO;100;11087;1340;7;PASSOU
+113;Substituição de Garantia;Guardião do Chassi;ACERTO;100;11197;1350;8;PASSOU
+114;Substituição de Garantia;Guardião do Chassi;ERRO;85;11217;1350;0;PASSOU
+115;Substituição de Garantia;Golem da Garantia;ACERTO;85;11317;1360;1;PASSOU
+116;Substituição de Garantia;Golem da Garantia;ACERTO;85;11417;1370;2;PASSOU
+117;Substituição de Garantia;Golem da Garantia;ACERTO;85;11517;1380;3;PASSOU
+118;Substituição de Garantia;Corvo Dourado da Wiki;ACERTO;85;11697;1430;4;PASSOU
+119;Substituição de Garantia;Fera da Vistoria;ACERTO;85;11807;1440;5;PASSOU
+120;Substituição de Garantia;Colosso da Garantia;ACERTO;85;12049;1475;6;PASSOU
+121;Substituição de Garantia;Fera da Vistoria;ACERTO;85;12159;1485;7;PASSOU
+122;Substituição de Garantia;Sentinela FIPE;ACERTO;85;12269;1495;8;PASSOU
+123;Substituição de Garantia;Sentinela FIPE;ERRO;70;12289;1495;0;PASSOU
+124;Rastreador;Olho Mecânico;ACERTO;70;12389;1505;1;PASSOU
+125;Rastreador;Olho Mecânico;ACERTO;70;12489;1515;2;PASSOU
+126;Cartas;Escriba Sombrio;ACERTO;70;12589;1525;3;PASSOU
+127;Cartas;Escriba Sombrio;ACERTO;70;12689;1535;4;PASSOU
+128;Cartas;Escriba Sombrio;ACERTO;70;12799;1545;5;PASSOU
+129;Cartas;Guardião da Procuração;ACERTO;70;12909;1555;6;PASSOU
+130;Renault Serviços;Espírito da Revisão;ACERTO;70;13019;1565;7;PASSOU
+131;Renault Serviços;Orbe Mobilize;ACERTO;70;13217;1565;8;PASSOU
+132;Renault Serviços;Espírito da Revisão;ERRO;55;13237;1565;0;PASSOU
+133;Renault Serviços;Espírito da Revisão;ACERTO;55;13337;1575;1;PASSOU
+134;Move Brasil;Duende Move Brasil;ERRO;40;13357;1575;0;PASSOU
+135;Consulta à Wiki;Guardião do Cofre N1;ACERTO;40;13577;1610;1;PASSOU

@@ -1,0 +1,1945 @@
+{
+  "started": "2026-10-19T16:22:45.122814",
+  "questions": [
+    {
+      "n": 1,
+      "theme": "Introdução",
+      "monster": "Oráculo do Portal",
+      "ok": true,
+      "xp": 100,
+      "gold": 10,
+      "combo": 1,
+      "fits": true
+    },
+    {
+      "n": 2,
+      "theme": "Papel do N1",
+      "monster": "Escriba do Contrato",
+      "ok": true,
+      "xp": 200,
+      "gold": 20,
+      "combo": 2,
+      "fits": true
+    },
+    {
+      "n": 3,
+      "theme": "Financiamento",
+      "monster": "Oráculo do Portal",
+      "ok": true,
+      "xp": 300,
+      "gold": 30,
+      "combo": 3,
+      "fits": true
+    },
+    {
+      "n": 4,
+      "theme": "CDC",
+      "monster": "Sentinela do Atendimento",
+      "ok": true,
+      "xp": 400,
+      "gold": 40,
+      "combo": 4,
+      "fits": true
+    },
+    {
+      "n": 5,
+      "theme": "Leasing",
+      "monster": "Guardião do Arrendamento",
+      "ok": true,
+      "xp": 510,
+      "gold": 50,
+      "combo": 5,
+      "fits": true
+    },
+    {
+      "n": 6,
+      "theme": "CDC x Leasing",
+      "monster": "Cavaleiro do Leasing",
+      "ok": true,
+      "xp": 620,
+      "gold": 110,
+      "combo": 6,
+      "fits": true
+    },
+    {
+      "n": 7,
+      "theme": "Atendimento",
+      "monster": "Slime do Cadastro",
+      "ok": true,
+      "xp": 730,
+      "gold": 120,
+      "combo": 7,
+      "fits": true
+    },
+    {
+      "n": 8,
+      "theme": "Confirmação de dados",
+      "monster": "Oráculo do Portal",
+      "ok": true,
+      "xp": 840,
+      "gold": 130,
+      "combo": 8,
+      "fits": true
+    },
+    {
+      "n": 9,
+      "theme": "Retorno de ligação",
+      "monster": "Escriba do Contrato",
+      "ok": true,
+      "xp": 950,
+      "gold": 140,
+      "combo": 9,
+      "fits": true
+    },
+    {
+      "n": 10,
+      "theme": "Sistemas",
+      "monster": "Espectro SNG",
+      "ok": true,
+      "xp": 1075,
+      "gold": 150,
+      "combo": 10,
+      "fits": true
+    },
+    {
+      "n": 11,
+      "theme": "Sistemas",
+      "monster": "Oráculo NOVAR",
+      "ok": true,
+      "xp": 1200,
+      "gold": 160,
+      "combo": 11,
+      "fits": true
+    },
+    {
+      "n": 12,
+      "theme": "Sistemas",
+      "monster": "Pixie LEVY",
+      "ok": true,
+      "xp": 1325,
+      "gold": 170,
+      "combo": 12,
+      "fits": true
+    },
+    {
+      "n": 13,
+      "theme": "Portal do Cliente",
+      "monster": "Bug do FRONT",
+      "ok": true,
+      "xp": 1450,
+      "gold": 180,
+      "combo": 13,
+      "fits": true
+    },
+    {
+      "n": 14,
+      "theme": "Documentos",
+      "monster": "Mímico do CRV",
+      "ok": true,
+      "xp": 1575,
+      "gold": 190,
+      "combo": 14,
+      "fits": true
+    },
+    {
+      "n": 15,
+      "theme": "Gravame",
+      "monster": "Mestre dos Contratos",
+      "ok": true,
+      "xp": 1850,
+      "gold": 225,
+      "combo": 15,
+      "fits": true
+    },
+    {
+      "n": 16,
+      "theme": "Gravame",
+      "monster": "Corvo Dourado da Wiki",
+      "ok": true,
+      "xp": 2075,
+      "gold": 275,
+      "combo": 16,
+      "fits": true
+    },
+    {
+      "n": 17,
+      "theme": "Gravame",
+      "monster": "Golem do Gravame",
+      "ok": true,
+      "xp": 2200,
+      "gold": 285,
+      "combo": 17,
+      "fits": true
+    },
+    {
+      "n": 18,
+      "theme": "Gravame",
+      "monster": "Golem do Gravame",
+      "ok": true,
+      "xp": 2325,
+      "gold": 295,
+      "combo": 18,
+      "fits": true
+    },
+    {
+      "n": 19,
+      "theme": "Gravame",
+      "monster": "Golem do Gravame",
+      "ok": true,
+      "xp": 2450,
+      "gold": 305,
+      "combo": 19,
+      "fits": true
+    },
+    {
+      "n": 20,
+      "theme": "Gravame",
+      "monster": "Corrente Alienada",
+      "ok": true,
+      "xp": 2575,
+      "gold": 315,
+      "combo": 20,
+      "fits": true
+    },
+    {
+      "n": 21,
+      "theme": "Leasing e Gravame",
+      "monster": "Corrente Alienada",
+      "ok": true,
+      "xp": 2760,
+      "gold": 325,
+      "combo": 21,
+      "fits": true
+    },
+    {
+      "n": 22,
+      "theme": "Boleto",
+      "monster": "Goblin do Vencimento",
+      "ok": true,
+      "xp": 2885,
+      "gold": 335,
+      "combo": 22,
+      "fits": true
+    },
+    {
+      "n": 23,
+      "theme": "Boleto",
+      "monster": "Slime dos Juros",
+      "ok": true,
+      "xp": 3010,
+      "gold": 345,
+      "combo": 23,
+      "fits": true
+    },
+    {
+      "n": 24,
+      "theme": "Boleto",
+      "monster": "Slime dos Juros",
+      "ok": true,
+      "xp": 3135,
+      "gold": 355,
+      "combo": 24,
+      "fits": true
+    },
+    {
+      "n": 25,
+      "theme": "Boleto",
+      "monster": "Slime dos Juros",
+      "ok": true,
+      "xp": 3260,
+      "gold": 365,
+      "combo": 25,
+      "fits": true
+    },
+    {
+      "n": 26,
+      "theme": "Boleto",
+      "monster": "Slime dos Juros",
+      "ok": true,
+      "xp": 3385,
+      "gold": 425,
+      "combo": 26,
+      "fits": true
+    },
+    {
+      "n": 27,
+      "theme": "Boleto",
+      "monster": "Mímico de Ouro",
+      "ok": true,
+      "xp": 3610,
+      "gold": 475,
+      "combo": 27,
+      "fits": true
+    },
+    {
+      "n": 28,
+      "theme": "Boleto / DDA",
+      "monster": "Devorador de Parcelas",
+      "ok": true,
+      "xp": 3735,
+      "gold": 485,
+      "combo": 28,
+      "fits": true
+    },
+    {
+      "n": 29,
+      "theme": "Boleto",
+      "monster": "Devorador de Parcelas",
+      "ok": true,
+      "xp": 3860,
+      "gold": 495,
+      "combo": 29,
+      "fits": true
+    },
+    {
+      "n": 30,
+      "theme": "Boleto",
+      "monster": "Lorde dos Boletos",
+      "ok": true,
+      "xp": 4135,
+      "gold": 530,
+      "combo": 30,
+      "fits": true
+    },
+    {
+      "n": 31,
+      "theme": "Inversão de parcela",
+      "monster": "Fantasma da Duplicidade",
+      "ok": true,
+      "xp": 4260,
+      "gold": 540,
+      "combo": 31,
+      "fits": true
+    },
+    {
+      "n": 32,
+      "theme": "Inversão de parcela",
+      "monster": "Colecionador de Comprovantes",
+      "ok": true,
+      "xp": 4385,
+      "gold": 550,
+      "combo": 32,
+      "fits": true
+    },
+    {
+      "n": 33,
+      "theme": "Inversão / Estorno",
+      "monster": "Slime da Baixa",
+      "ok": true,
+      "xp": 4510,
+      "gold": 560,
+      "combo": 33,
+      "fits": true
+    },
+    {
+      "n": 34,
+      "theme": "Pagamento em duplicidade",
+      "monster": "Colecionador de Comprovantes",
+      "ok": true,
+      "xp": 4635,
+      "gold": 570,
+      "combo": 34,
+      "fits": true
+    },
+    {
+      "n": 35,
+      "theme": "Pagamento em duplicidade",
+      "monster": "Fantasma da Duplicidade",
+      "ok": true,
+      "xp": 4760,
+      "gold": 580,
+      "combo": 35,
+      "fits": true
+    },
+    {
+      "n": 36,
+      "theme": "Baixa de pagamento",
+      "monster": "Cavaleiro da Parcela Invertida",
+      "ok": true,
+      "xp": 4885,
+      "gold": 590,
+      "combo": 36,
+      "fits": true
+    },
+    {
+      "n": 37,
+      "theme": "Baixa de pagamento",
+      "monster": "Fantasma da Duplicidade",
+      "ok": true,
+      "xp": 5010,
+      "gold": 600,
+      "combo": 37,
+      "fits": true
+    },
+    {
+      "n": 38,
+      "theme": "Carnê",
+      "monster": "Slime Dourado dos Juros",
+      "ok": true,
+      "xp": 5235,
+      "gold": 650,
+      "combo": 38,
+      "fits": true
+    },
+    {
+      "n": 39,
+      "theme": "Taxas",
+      "monster": "Imp do IOF",
+      "ok": true,
+      "xp": 5360,
+      "gold": 660,
+      "combo": 39,
+      "fits": true
+    },
+    {
+      "n": 40,
+      "theme": "Taxas",
+      "monster": "Imp do IOF",
+      "ok": true,
+      "xp": 5485,
+      "gold": 670,
+      "combo": 40,
+      "fits": true
+    },
+    {
+      "n": 41,
+      "theme": "Taxa zero",
+      "monster": "Imp do IOF",
+      "ok": true,
+      "xp": 5610,
+      "gold": 630,
+      "combo": 41,
+      "fits": true
+    },
+    {
+      "n": 42,
+      "theme": "Alteração cadastral",
+      "monster": "Sentinela do Atendimento",
+      "ok": true,
+      "xp": 5735,
+      "gold": 640,
+      "combo": 42,
+      "fits": true
+    },
+    {
+      "n": 43,
+      "theme": "Cobrança",
+      "monster": "Carrasco dos Juros",
+      "ok": true,
+      "xp": 5860,
+      "gold": 650,
+      "combo": 43,
+      "fits": true
+    },
+    {
+      "n": 44,
+      "theme": "Restrição / Serasa",
+      "monster": "Coletor Sombrio",
+      "ok": true,
+      "xp": 5985,
+      "gold": 660,
+      "combo": 44,
+      "fits": true
+    },
+    {
+      "n": 45,
+      "theme": "Restrição / Serasa",
+      "monster": "Espectro Supremo do Serasa",
+      "ok": true,
+      "xp": 6260,
+      "gold": 695,
+      "combo": 45,
+      "fits": true
+    },
+    {
+      "n": 46,
+      "theme": "Cancelamento",
+      "monster": "Guardião da Restrição",
+      "ok": true,
+      "xp": 6385,
+      "gold": 705,
+      "combo": 46,
+      "fits": true
+    },
+    {
+      "n": 47,
+      "theme": "Cancelamento",
+      "monster": "Espectro do Serasa",
+      "ok": true,
+      "xp": 6510,
+      "gold": 715,
+      "combo": 47,
+      "fits": true
+    },
+    {
+      "n": 48,
+      "theme": "Cancelamento / Vencimento",
+      "monster": "Carrasco dos Juros",
+      "ok": true,
+      "xp": 6635,
+      "gold": 725,
+      "combo": 48,
+      "fits": true
+    },
+    {
+      "n": 49,
+      "theme": "Cancelamento de contrato",
+      "monster": "Carrasco dos Juros",
+      "ok": true,
+      "xp": 6760,
+      "gold": 735,
+      "combo": 49,
+      "fits": true
+    },
+    {
+      "n": 50,
+      "theme": "Seguro Proteção Financeira",
+      "monster": "Quimera Tranquilidade",
+      "ok": true,
+      "xp": 6885,
+      "gold": 745,
+      "combo": 50,
+      "fits": true
+    },
+    {
+      "n": 51,
+      "theme": "Seguro Tranquilidade",
+      "monster": "Quimera Tranquilidade",
+      "ok": true,
+      "xp": 7010,
+      "gold": 705,
+      "combo": 51,
+      "fits": true
+    },
+    {
+      "n": 52,
+      "theme": "Seguro Tranquilidade",
+      "monster": "Quimera Tranquilidade",
+      "ok": true,
+      "xp": 7135,
+      "gold": 715,
+      "combo": 52,
+      "fits": true
+    },
+    {
+      "n": 53,
+      "theme": "Tranquilidade Total",
+      "monster": "Quimera Tranquilidade",
+      "ok": true,
+      "xp": 7260,
+      "gold": 725,
+      "combo": 53,
+      "fits": true
+    },
+    {
+      "n": 54,
+      "theme": "Garantia Estendida",
+      "monster": "Slime Dourado dos Juros",
+      "ok": true,
+      "xp": 7485,
+      "gold": 775,
+      "combo": 54,
+      "fits": true
+    },
+    {
+      "n": 55,
+      "theme": "Garantia Estendida",
+      "monster": "Espírito da Proteção",
+      "ok": true,
+      "xp": 7610,
+      "gold": 785,
+      "combo": 55,
+      "fits": true
+    },
+    {
+      "n": 56,
+      "theme": "Garantia Mecânica",
+      "monster": "Espírito da Proteção",
+      "ok": true,
+      "xp": 7735,
+      "gold": 845,
+      "combo": 56,
+      "fits": true
+    },
+    {
+      "n": 57,
+      "theme": "SPF – Ressarcimento",
+      "monster": "Espírito da Proteção",
+      "ok": true,
+      "xp": 7860,
+      "gold": 855,
+      "combo": 57,
+      "fits": true
+    },
+    {
+      "n": 58,
+      "theme": "SPF – Ressarcimento",
+      "monster": "Guardião SPF",
+      "ok": true,
+      "xp": 7985,
+      "gold": 865,
+      "combo": 58,
+      "fits": true
+    },
+    {
+      "n": 59,
+      "theme": "Cancelamento de seguro",
+      "monster": "Espectro do Serasa",
+      "ok": true,
+      "xp": 8110,
+      "gold": 875,
+      "combo": 59,
+      "fits": true
+    },
+    {
+      "n": 60,
+      "theme": "Falecimento",
+      "monster": "Hidra dos Seguros",
+      "ok": true,
+      "xp": 8385,
+      "gold": 910,
+      "combo": 60,
+      "fits": true
+    },
+    {
+      "n": 61,
+      "theme": "Falecimento",
+      "monster": "Espectro da Franquia",
+      "ok": true,
+      "xp": 8510,
+      "gold": 920,
+      "combo": 61,
+      "fits": true
+    },
+    {
+      "n": 62,
+      "theme": "Reorganização Financeira",
+      "monster": "Mercador da Renegociação",
+      "ok": true,
+      "xp": 8635,
+      "gold": 930,
+      "combo": 62,
+      "fits": true
+    },
+    {
+      "n": 63,
+      "theme": "Reorganização Financeira",
+      "monster": "Mercador da Renegociação",
+      "ok": true,
+      "xp": 8760,
+      "gold": 940,
+      "combo": 63,
+      "fits": true
+    },
+    {
+      "n": 64,
+      "theme": "Reorganização Financeira",
+      "monster": "Oráculo da Parcela Balão",
+      "ok": true,
+      "xp": 8885,
+      "gold": 950,
+      "combo": 64,
+      "fits": true
+    },
+    {
+      "n": 65,
+      "theme": "Reorganização Financeira",
+      "monster": "Mercador da Renegociação",
+      "ok": true,
+      "xp": 9010,
+      "gold": 960,
+      "combo": 65,
+      "fits": true
+    },
+    {
+      "n": 66,
+      "theme": "Reorganização Financeira",
+      "monster": "Mago da Reorganização",
+      "ok": true,
+      "xp": 9135,
+      "gold": 1020,
+      "combo": 66,
+      "fits": true
+    },
+    {
+      "n": 67,
+      "theme": "Reorganização Financeira",
+      "monster": "Mercador da Renegociação",
+      "ok": true,
+      "xp": 9260,
+      "gold": 1030,
+      "combo": 67,
+      "fits": true
+    },
+    {
+      "n": 68,
+      "theme": "Reorganização Financeira",
+      "monster": "Mago da Reorganização",
+      "ok": true,
+      "xp": 9385,
+      "gold": 1040,
+      "combo": 68,
+      "fits": true
+    },
+    {
+      "n": 69,
+      "theme": "Reorganização Financeira",
+      "monster": "Oráculo da Parcela Balão",
+      "ok": true,
+      "xp": 9510,
+      "gold": 1050,
+      "combo": 69,
+      "fits": true
+    },
+    {
+      "n": 70,
+      "theme": "Reorganização Financeira",
+      "monster": "Cronomante do CET",
+      "ok": true,
+      "xp": 9635,
+      "gold": 1060,
+      "combo": 70,
+      "fits": true
+    },
+    {
+      "n": 71,
+      "theme": "Cancelamento da Reorganização",
+      "monster": "Espectro do Serasa",
+      "ok": true,
+      "xp": 9820,
+      "gold": 1070,
+      "combo": 71,
+      "fits": true
+    },
+    {
+      "n": 72,
+      "theme": "Cancelamento da Reorganização",
+      "monster": "Guardião da Restrição",
+      "ok": true,
+      "xp": 9945,
+      "gold": 1080,
+      "combo": 72,
+      "fits": true
+    },
+    {
+      "n": 73,
+      "theme": "Cancelamento da Reorganização",
+      "monster": "Coletor Sombrio",
+      "ok": true,
+      "xp": 10070,
+      "gold": 1090,
+      "combo": 73,
+      "fits": true
+    },
+    {
+      "n": 74,
+      "theme": "Cancelamento da Reorganização",
+      "monster": "Carrasco dos Juros",
+      "ok": true,
+      "xp": 10195,
+      "gold": 1100,
+      "combo": 74,
+      "fits": true
+    },
+    {
+      "n": 75,
+      "theme": "Parcela Balão",
+      "monster": "Arquimago da Reorganização",
+      "ok": true,
+      "xp": 10470,
+      "gold": 1135,
+      "combo": 75,
+      "fits": true
+    },
+    {
+      "n": 76,
+      "theme": "Parcela Balão",
+      "monster": "Mercador da Renegociação",
+      "ok": true,
+      "xp": 10595,
+      "gold": 1145,
+      "combo": 76,
+      "fits": true
+    },
+    {
+      "n": 77,
+      "theme": "Troca Fácil / Nissan Replay",
+      "monster": "Oráculo do Portal",
+      "ok": true,
+      "xp": 10720,
+      "gold": 1155,
+      "combo": 77,
+      "fits": true
+    },
+    {
+      "n": 78,
+      "theme": "Renegociação",
+      "monster": "Oráculo da Parcela Balão",
+      "ok": true,
+      "xp": 10845,
+      "gold": 1165,
+      "combo": 78,
+      "fits": true
+    },
+    {
+      "n": 79,
+      "theme": "Renegociação",
+      "monster": "Cronomante do CET",
+      "ok": true,
+      "xp": 10970,
+      "gold": 1175,
+      "combo": 79,
+      "fits": true
+    },
+    {
+      "n": 80,
+      "theme": "Encerramento de Leasing",
+      "monster": "Cavaleiro do Leasing",
+      "ok": true,
+      "xp": 11095,
+      "gold": 1185,
+      "combo": 80,
+      "fits": true
+    },
+    {
+      "n": 81,
+      "theme": "Encerramento de Leasing",
+      "monster": "Espectro do VRG",
+      "ok": true,
+      "xp": 11220,
+      "gold": 1195,
+      "combo": 81,
+      "fits": true
+    },
+    {
+      "n": 82,
+      "theme": "Encerramento de Leasing",
+      "monster": "Espectro do VRG",
+      "ok": true,
+      "xp": 11345,
+      "gold": 1205,
+      "combo": 82,
+      "fits": true
+    },
+    {
+      "n": 83,
+      "theme": "Encerramento de Leasing",
+      "monster": "Espectro do VRG",
+      "ok": true,
+      "xp": 11470,
+      "gold": 1215,
+      "combo": 83,
+      "fits": true
+    },
+    {
+      "n": 84,
+      "theme": "Encerramento de Leasing",
+      "monster": "Guardião do Arrendamento",
+      "ok": true,
+      "xp": 11595,
+      "gold": 1225,
+      "combo": 84,
+      "fits": true
+    },
+    {
+      "n": 85,
+      "theme": "Encerramento de Leasing",
+      "monster": "Guardião do Arrendamento",
+      "ok": true,
+      "xp": 11720,
+      "gold": 1235,
+      "combo": 85,
+      "fits": true
+    },
+    {
+      "n": 86,
+      "theme": "Encerramento de Leasing",
+      "monster": "Guardião do Arrendamento",
+      "ok": true,
+      "xp": 11845,
+      "gold": 1245,
+      "combo": 86,
+      "fits": true
+    },
+    {
+      "n": 87,
+      "theme": "Encerramento de Leasing",
+      "monster": "Guardião do Arrendamento",
+      "ok": true,
+      "xp": 11970,
+      "gold": 1255,
+      "combo": 87,
+      "fits": true
+    },
+    {
+      "n": 88,
+      "theme": "Rescisão de Leasing",
+      "monster": "Devorador da Rescisão",
+      "ok": true,
+      "xp": 12095,
+      "gold": 1265,
+      "combo": 88,
+      "fits": true
+    },
+    {
+      "n": 89,
+      "theme": "Rescisão de Leasing",
+      "monster": "Devorador da Rescisão",
+      "ok": true,
+      "xp": 12220,
+      "gold": 1275,
+      "combo": 89,
+      "fits": true
+    },
+    {
+      "n": 90,
+      "theme": "Rescisão de Leasing",
+      "monster": "Dragão do Leasing",
+      "ok": true,
+      "xp": 12495,
+      "gold": 1310,
+      "combo": 90,
+      "fits": true
+    },
+    {
+      "n": 91,
+      "theme": "Cessão de Direitos",
+      "monster": "Guardião do Contrato",
+      "ok": true,
+      "xp": 12620,
+      "gold": 1320,
+      "combo": 91,
+      "fits": true
+    },
+    {
+      "n": 92,
+      "theme": "Cessão de Direitos",
+      "monster": "Arauto da Cessão",
+      "ok": true,
+      "xp": 12745,
+      "gold": 1330,
+      "combo": 92,
+      "fits": true
+    },
+    {
+      "n": 93,
+      "theme": "Cessão de Direitos",
+      "monster": "Arauto da Cessão",
+      "ok": true,
+      "xp": 12870,
+      "gold": 1340,
+      "combo": 93,
+      "fits": true
+    },
+    {
+      "n": 94,
+      "theme": "Cessão de Direitos",
+      "monster": "Arauto da Cessão",
+      "ok": true,
+      "xp": 12995,
+      "gold": 1350,
+      "combo": 94,
+      "fits": true
+    },
+    {
+      "n": 95,
+      "theme": "Cessão de Direitos",
+      "monster": "Arauto da Cessão",
+      "ok": true,
+      "xp": 13120,
+      "gold": 1360,
+      "combo": 95,
+      "fits": true
+    },
+    {
+      "n": 96,
+      "theme": "Cessão de Direitos",
+      "monster": "Cavaleiro Cedente",
+      "ok": true,
+      "xp": 13245,
+      "gold": 1420,
+      "combo": 96,
+      "fits": true
+    },
+    {
+      "n": 97,
+      "theme": "Cessão de Direitos",
+      "monster": "Arauto da Cessão",
+      "ok": true,
+      "xp": 13370,
+      "gold": 1430,
+      "combo": 97,
+      "fits": true
+    },
+    {
+      "n": 98,
+      "theme": "Cessão de Direitos",
+      "monster": "Cavaleiro Cedente",
+      "ok": true,
+      "xp": 13495,
+      "gold": 1440,
+      "combo": 98,
+      "fits": true
+    },
+    {
+      "n": 99,
+      "theme": "Cessão de Direitos",
+      "monster": "Arauto da Cessão",
+      "ok": true,
+      "xp": 13620,
+      "gold": 1450,
+      "combo": 99,
+      "fits": true
+    },
+    {
+      "n": 100,
+      "theme": "Cessão de Direitos",
+      "monster": "Espectro Cessionário",
+      "ok": true,
+      "xp": 13745,
+      "gold": 1460,
+      "combo": 100,
+      "fits": true
+    },
+    {
+      "n": 101,
+      "theme": "Cessão de Direitos",
+      "monster": "Guardião do Contrato",
+      "ok": true,
+      "xp": 13930,
+      "gold": 1470,
+      "combo": 101,
+      "fits": true
+    },
+    {
+      "n": 102,
+      "theme": "Cessão de Direitos",
+      "monster": "Espectro Cessionário",
+      "ok": true,
+      "xp": 14055,
+      "gold": 1480,
+      "combo": 102,
+      "fits": true
+    },
+    {
+      "n": 103,
+      "theme": "Cessão de Direitos",
+      "monster": "Cavaleiro Cedente",
+      "ok": true,
+      "xp": 14180,
+      "gold": 1490,
+      "combo": 103,
+      "fits": true
+    },
+    {
+      "n": 104,
+      "theme": "Cessão de Direitos",
+      "monster": "Arauto da Cessão",
+      "ok": true,
+      "xp": 14305,
+      "gold": 1500,
+      "combo": 104,
+      "fits": true
+    },
+    {
+      "n": 105,
+      "theme": "Cessão de Direitos",
+      "monster": "Rei Cessionário",
+      "ok": true,
+      "xp": 14580,
+      "gold": 1535,
+      "combo": 105,
+      "fits": true
+    },
+    {
+      "n": 106,
+      "theme": "Substituição de Garantia",
+      "monster": "Corvo Dourado da Wiki",
+      "ok": true,
+      "xp": 14805,
+      "gold": 1585,
+      "combo": 106,
+      "fits": true
+    },
+    {
+      "n": 107,
+      "theme": "Substituição de Garantia",
+      "monster": "Fera da Vistoria",
+      "ok": true,
+      "xp": 14930,
+      "gold": 1595,
+      "combo": 107,
+      "fits": true
+    },
+    {
+      "n": 108,
+      "theme": "Substituição de Garantia",
+      "monster": "Guardião do Chassi",
+      "ok": true,
+      "xp": 15055,
+      "gold": 1605,
+      "combo": 108,
+      "fits": true
+    },
+    {
+      "n": 109,
+      "theme": "Substituição de Garantia",
+      "monster": "Fera da Vistoria",
+      "ok": true,
+      "xp": 15180,
+      "gold": 1615,
+      "combo": 109,
+      "fits": true
+    },
+    {
+      "n": 110,
+      "theme": "Substituição de Garantia",
+      "monster": "Guardião do Chassi",
+      "ok": true,
+      "xp": 15305,
+      "gold": 1625,
+      "combo": 110,
+      "fits": true
+    },
+    {
+      "n": 111,
+      "theme": "Substituição de Garantia",
+      "monster": "Golem da Garantia",
+      "ok": true,
+      "xp": 15430,
+      "gold": 1635,
+      "combo": 111,
+      "fits": true
+    },
+    {
+      "n": 112,
+      "theme": "Substituição de Garantia",
+      "monster": "Guardião do Chassi",
+      "ok": true,
+      "xp": 15555,
+      "gold": 1645,
+      "combo": 112,
+      "fits": true
+    },
+    {
+      "n": 113,
+      "theme": "Substituição de Garantia",
+      "monster": "Guardião do Chassi",
+      "ok": true,
+      "xp": 15680,
+      "gold": 1655,
+      "combo": 113,
+      "fits": true
+    },
+    {
+      "n": 114,
+      "theme": "Substituição de Garantia",
+      "monster": "Guardião do Chassi",
+      "ok": true,
+      "xp": 15805,
+      "gold": 1665,
+      "combo": 114,
+      "fits": true
+    },
+    {
+      "n": 115,
+      "theme": "Substituição de Garantia",
+      "monster": "Golem da Garantia",
+      "ok": true,
+      "xp": 15930,
+      "gold": 1675,
+      "combo": 115,
+      "fits": true
+    },
+    {
+      "n": 116,
+      "theme": "Substituição de Garantia",
+      "monster": "Golem da Garantia",
+      "ok": true,
+      "xp": 16055,
+      "gold": 1685,
+      "combo": 116,
+      "fits": true
+    },
+    {
+      "n": 117,
+      "theme": "Substituição de Garantia",
+      "monster": "Golem da Garantia",
+      "ok": true,
+      "xp": 16180,
+      "gold": 1695,
+      "combo": 117,
+      "fits": true
+    },
+    {
+      "n": 118,
+      "theme": "Substituição de Garantia",
+      "monster": "Corvo Dourado da Wiki",
+      "ok": true,
+      "xp": 16405,
+      "gold": 1745,
+      "combo": 118,
+      "fits": true
+    },
+    {
+      "n": 119,
+      "theme": "Substituição de Garantia",
+      "monster": "Fera da Vistoria",
+      "ok": true,
+      "xp": 16530,
+      "gold": 1755,
+      "combo": 119,
+      "fits": true
+    },
+    {
+      "n": 120,
+      "theme": "Substituição de Garantia",
+      "monster": "Colosso da Garantia",
+      "ok": true,
+      "xp": 16805,
+      "gold": 1790,
+      "combo": 120,
+      "fits": true
+    },
+    {
+      "n": 121,
+      "theme": "Substituição de Garantia",
+      "monster": "Fera da Vistoria",
+      "ok": true,
+      "xp": 16930,
+      "gold": 1800,
+      "combo": 121,
+      "fits": true
+    },
+    {
+      "n": 122,
+      "theme": "Substituição de Garantia",
+      "monster": "Sentinela FIPE",
+      "ok": true,
+      "xp": 17055,
+      "gold": 1810,
+      "combo": 122,
+      "fits": true
+    },
+    {
+      "n": 123,
+      "theme": "Substituição de Garantia",
+      "monster": "Sentinela FIPE",
+      "ok": true,
+      "xp": 17180,
+      "gold": 1820,
+      "combo": 123,
+      "fits": true
+    },
+    {
+      "n": 124,
+      "theme": "Rastreador",
+      "monster": "Olho Mecânico",
+      "ok": true,
+      "xp": 17305,
+      "gold": 1830,
+      "combo": 124,
+      "fits": true
+    },
+    {
+      "n": 125,
+      "theme": "Rastreador",
+      "monster": "Olho Mecânico",
+      "ok": true,
+      "xp": 17430,
+      "gold": 1840,
+      "combo": 125,
+      "fits": true
+    },
+    {
+      "n": 126,
+      "theme": "Cartas",
+      "monster": "Escriba Sombrio",
+      "ok": true,
+      "xp": 17555,
+      "gold": 1850,
+      "combo": 126,
+      "fits": true
+    },
+    {
+      "n": 127,
+      "theme": "Cartas",
+      "monster": "Escriba Sombrio",
+      "ok": true,
+      "xp": 17680,
+      "gold": 1860,
+      "combo": 127,
+      "fits": true
+    },
+    {
+      "n": 128,
+      "theme": "Cartas",
+      "monster": "Escriba Sombrio",
+      "ok": true,
+      "xp": 17805,
+      "gold": 1870,
+      "combo": 128,
+      "fits": true
+    },
+    {
+      "n": 129,
+      "theme": "Cartas",
+      "monster": "Guardião da Procuração",
+      "ok": true,
+      "xp": 17930,
+      "gold": 1880,
+      "combo": 129,
+      "fits": true
+    },
+    {
+      "n": 130,
+      "theme": "Renault Serviços",
+      "monster": "Espírito da Revisão",
+      "ok": true,
+      "xp": 18055,
+      "gold": 1890,
+      "combo": 130,
+      "fits": true
+    },
+    {
+      "n": 131,
+      "theme": "Renault Serviços",
+      "monster": "Orbe Mobilize",
+      "ok": true,
+      "xp": 18280,
+      "gold": 1890,
+      "combo": 131,
+      "fits": true
+    },
+    {
+      "n": 132,
+      "theme": "Renault Serviços",
+      "monster": "Espírito da Revisão",
+      "ok": true,
+      "xp": 18405,
+      "gold": 1900,
+      "combo": 132,
+      "fits": true
+    },
+    {
+      "n": 133,
+      "theme": "Renault Serviços",
+      "monster": "Espírito da Revisão",
+      "ok": true,
+      "xp": 18530,
+      "gold": 1910,
+      "combo": 133,
+      "fits": true
+    },
+    {
+      "n": 134,
+      "theme": "Move Brasil",
+      "monster": "Duende Move Brasil",
+      "ok": true,
+      "xp": 18655,
+      "gold": 1920,
+      "combo": 134,
+      "fits": true
+    },
+    {
+      "n": 135,
+      "theme": "Consulta à Wiki",
+      "monster": "Guardião do Cofre N1",
+      "ok": true,
+      "xp": 18930,
+      "gold": 1955,
+      "combo": 135,
+      "fits": true
+    }
+  ],
+  "bosses": [
+    {
+      "name": "Mestre dos Contratos",
+      "sub": "Arquivista do Primeiro Selo",
+      "img": 96,
+      "q": 15,
+      "buttonHit": {
+        "x": 683,
+        "y": 508,
+        "w": 104.0625,
+        "h": 38,
+        "top": 489,
+        "bottom": 527,
+        "left": 630.96875,
+        "right": 735.03125,
+        "visible": true,
+        "same": true,
+        "contains": true,
+        "hitTag": "BUTTON",
+        "hitId": "faceBoss",
+        "hitClass": "pxBtn danger",
+        "disabled": false
+      }
+    },
+    {
+      "name": "Lorde dos Boletos",
+      "sub": "Devorador de Vencimentos",
+      "img": 96,
+      "q": 30,
+      "buttonHit": {
+        "x": 683,
+        "y": 508,
+        "w": 104.0625,
+        "h": 38,
+        "top": 489,
+        "bottom": 527,
+        "left": 630.96875,
+        "right": 735.03125,
+        "visible": true,
+        "same": true,
+        "contains": true,
+        "hitTag": "BUTTON",
+        "hitId": "faceBoss",
+        "hitClass": "pxBtn danger",
+        "disabled": false
+      }
+    },
+    {
+      "name": "Espectro Supremo do Serasa",
+      "sub": "Guardião da Restrição Sombria",
+      "img": 96,
+      "q": 45,
+      "buttonHit": {
+        "x": 683,
+        "y": 508,
+        "w": 104.0625,
+        "h": 38,
+        "top": 489,
+        "bottom": 527,
+        "left": 630.96875,
+        "right": 735.03125,
+        "visible": true,
+        "same": true,
+        "contains": true,
+        "hitTag": "BUTTON",
+        "hitId": "faceBoss",
+        "hitClass": "pxBtn danger",
+        "disabled": false
+      }
+    },
+    {
+      "name": "Hidra dos Seguros",
+      "sub": "Três Cabeças da Proteção",
+      "img": 96,
+      "q": 60,
+      "buttonHit": {
+        "x": 683,
+        "y": 508,
+        "w": 104.0625,
+        "h": 38,
+        "top": 489,
+        "bottom": 527,
+        "left": 630.96875,
+        "right": 735.03125,
+        "visible": true,
+        "same": true,
+        "contains": true,
+        "hitTag": "BUTTON",
+        "hitId": "faceBoss",
+        "hitClass": "pxBtn danger",
+        "disabled": false
+      }
+    },
+    {
+      "name": "Arquimago da Reorganização",
+      "sub": "Senhor dos Novos Prazos",
+      "img": 96,
+      "q": 75,
+      "buttonHit": {
+        "x": 683,
+        "y": 508,
+        "w": 104.0625,
+        "h": 38,
+        "top": 489,
+        "bottom": 527,
+        "left": 630.96875,
+        "right": 735.03125,
+        "visible": true,
+        "same": true,
+        "contains": true,
+        "hitTag": "BUTTON",
+        "hitId": "faceBoss",
+        "hitClass": "pxBtn danger",
+        "disabled": false
+      }
+    },
+    {
+      "name": "Dragão do Leasing",
+      "sub": "Guardião do Contrato Ancestral",
+      "img": 96,
+      "q": 90,
+      "buttonHit": {
+        "x": 683,
+        "y": 508,
+        "w": 104.0625,
+        "h": 38,
+        "top": 489,
+        "bottom": 527,
+        "left": 630.96875,
+        "right": 735.03125,
+        "visible": true,
+        "same": true,
+        "contains": true,
+        "hitTag": "BUTTON",
+        "hitId": "faceBoss",
+        "hitClass": "pxBtn danger",
+        "disabled": false
+      }
+    },
+    {
+      "name": "Rei Cessionário",
+      "sub": "Portador do Termo Aditivo",
+      "img": 96,
+      "q": 105,
+      "buttonHit": {
+        "x": 683,
+        "y": 508,
+        "w": 104.0625,
+        "h": 38,
+        "top": 489,
+        "bottom": 527,
+        "left": 630.96875,
+        "right": 735.03125,
+        "visible": true,
+        "same": true,
+        "contains": true,
+        "hitTag": "BUTTON",
+        "hitId": "faceBoss",
+        "hitClass": "pxBtn danger",
+        "disabled": false
+      }
+    },
+    {
+      "name": "Colosso da Garantia",
+      "sub": "Titã da Vistoria Cautelar",
+      "img": 96,
+      "q": 120,
+      "buttonHit": {
+        "x": 683,
+        "y": 508,
+        "w": 104.0625,
+        "h": 38,
+        "top": 489,
+        "bottom": 527,
+        "left": 630.96875,
+        "right": 735.03125,
+        "visible": true,
+        "same": true,
+        "contains": true,
+        "hitTag": "BUTTON",
+        "hitId": "faceBoss",
+        "hitClass": "pxBtn danger",
+        "disabled": false
+      }
+    },
+    {
+      "name": "Guardião do Cofre N1",
+      "sub": "Último Sentinela da Jornada",
+      "img": 96,
+      "q": 135,
+      "buttonHit": {
+        "x": 683,
+        "y": 508,
+        "w": 104.0625,
+        "h": 38,
+        "top": 489,
+        "bottom": 527,
+        "left": 630.96875,
+        "right": 735.03125,
+        "visible": true,
+        "same": true,
+        "contains": true,
+        "hitTag": "BUTTON",
+        "hitId": "faceBoss",
+        "hitClass": "pxBtn danger",
+        "disabled": false
+      }
+    }
+  ],
+  "events": [
+    {
+      "q": 5,
+      "type": "chest"
+    },
+    {
+      "q": 10,
+      "type": "camp"
+    },
+    {
+      "q": 20,
+      "type": "scroll"
+    },
+    {
+      "q": 25,
+      "type": "chest"
+    },
+    {
+      "q": 35,
+      "type": "potion"
+    },
+    {
+      "q": 40,
+      "type": "merchant"
+    },
+    {
+      "q": 50,
+      "type": "merchant"
+    },
+    {
+      "q": 55,
+      "type": "chest"
+    },
+    {
+      "q": 65,
+      "type": "chest"
+    },
+    {
+      "q": 70,
+      "type": "scroll"
+    },
+    {
+      "q": 80,
+      "type": "item"
+    },
+    {
+      "q": 85,
+      "type": "item"
+    },
+    {
+      "q": 95,
+      "type": "chest"
+    },
+    {
+      "q": 100,
+      "type": "scroll"
+    },
+    {
+      "q": 110,
+      "type": "camp"
+    },
+    {
+      "q": 115,
+      "type": "item"
+    },
+    {
+      "q": 125,
+      "type": "item"
+    },
+    {
+      "q": 130,
+      "type": "merchant"
+    }
+  ],
+  "checkpoints": [
+    {
+      "q": 15,
+      "state_q": 15,
+      "answered": 15
+    },
+    {
+      "q": 30,
+      "state_q": 30,
+      "answered": 30
+    },
+    {
+      "q": 45,
+      "state_q": 45,
+      "answered": 45
+    },
+    {
+      "q": 60,
+      "state_q": 15,
+      "answered": 60
+    },
+    {
+      "q": 75,
+      "state_q": 30,
+      "answered": 75
+    },
+    {
+      "q": 90,
+      "state_q": 45,
+      "answered": 90
+    },
+    {
+      "q": 105,
+      "state_q": 15,
+      "answered": 105
+    },
+    {
+      "q": 120,
+      "state_q": 30,
+      "answered": 120
+    },
+    {
+      "q": 135,
+      "state_q": 45,
+      "answered": 135
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "answered": 45
+    },
+    {
+      "chapter": 2,
+      "answered": 90
+    },
+    {
+      "chapter": 3,
+      "answered": 135
+    }
+  ],
+  "perf": [
+    {
+      "q": 15,
+      "heap": 1333860,
+      "nodes": 115,
+      "particles": 0,
+      "toasts": 1
+    },
+    {
+      "q": 30,
+      "heap": 1371560,
+      "nodes": 113,
+      "particles": 0,
+      "toasts": 0
+    },
+    {
+      "q": 45,
+      "heap": 1425344,
+      "nodes": 114,
+      "particles": 0,
+      "toasts": 1
+    },
+    {
+      "q": 60,
+      "heap": 1467932,
+      "nodes": 114,
+      "particles": 0,
+      "toasts": 1
+    },
+    {
+      "q": 75,
+      "heap": 1511524,
+      "nodes": 113,
+      "particles": 0,
+      "toasts": 0
+    },
+    {
+      "q": 90,
+      "heap": 1548216,
+      "nodes": 114,
+      "particles": 0,
+      "toasts": 1
+    },
+    {
+      "q": 105,
+      "heap": 1585488,
+      "nodes": 115,
+      "particles": 0,
+      "toasts": 1
+    },
+    {
+      "q": 120,
+      "heap": 1622292,
+      "nodes": 113,
+      "particles": 0,
+      "toasts": 0
+    },
+    {
+      "q": 135,
+      "heap": 1677136,
+      "nodes": 74,
+      "particles": 0,
+      "toasts": 1
+    }
+  ],
+  "errors": [],
+  "classes": [
+    {
+      "id": "investigador",
+      "name": "Investigador N1",
+      "img": 64
+    },
+    {
+      "id": "guardiao",
+      "name": "Guardião N1",
+      "img": 64
+    },
+    {
+      "id": "estrategista",
+      "name": "Estrategista N1",
+      "img": 64
+    }
+  ],
+  "initial_map": [
+    {
+      "locked": false,
+      "enter": true
+    },
+    {
+      "locked": true,
+      "enter": false
+    },
+    {
+      "locked": true,
+      "enter": false
+    }
+  ],
+  "final": {
+    "state": {
+      "v": 2,
+      "scr": "final",
+      "n": "QA Zeramento Real",
+      "c": "guardiao",
+      "b": 2,
+      "q": 45,
+      "ph": "q",
+      "ca": [
+        45,
+        45,
+        45
+      ],
+      "an": [
+        45,
+        45,
+        45
+      ],
+      "xp": 18930,
+      "g": 1955,
+      "h": 100,
+      "st": 135,
+      "bs": 135,
+      "dead": 0,
+      "bd": 9,
+      "ach": [
+        "blood",
+        "inv5",
+        "mind10",
+        "bosses3",
+        "perfect",
+        "proc2",
+        "guard"
+      ],
+      "inv": [
+        "escudo_n1",
+        "espada_atendimento"
+      ],
+      "seed": 100000,
+      "mute": true,
+      "rm": true,
+      "sel": -1,
+      "ok": null,
+      "rw": null,
+      "bi": "2-44",
+      "ev": null,
+      "la": "cofre_n1",
+      "done": true
+    },
+    "store": {
+      "cmi.core.lesson_status": "passed",
+      "cmi.core.score.min": "0",
+      "cmi.core.score.max": "100",
+      "cmi.core.score.raw": "100",
+      "cmi.suspend_data": "{\"v\":2,\"scr\":\"final\",\"n\":\"QA Zeramento Real\",\"c\":\"guardiao\",\"b\":2,\"q\":45,\"ph\":\"q\",\"ca\":[45,45,45],\"an\":[45,45,45],\"xp\":18930,\"g\":1955,\"h\":100,\"st\":135,\"bs\":135,\"dead\":0,\"bd\":9,\"ach\":[\"blood\",\"inv5\",\"mind10\",\"bosses3\",\"perfect\",\"proc2\",\"guard\"],\"inv\":[\"escudo_n1\",\"espada_atendimento\"],\"seed\":100000,\"mute\":true,\"rm\":true,\"sel\":-1,\"ok\":null,\"rw\":null,\"bi\":\"2-44\",\"ev\":null,\"la\":\"cofre_n1\",\"done\":true}",
+      "cmi.core.lesson_location": "final|2|45|q",
+      "cmi.core.exit": ""
+    },
+    "text": "JORNADA CONCLUÍDA\nQA Zeramento Real\nLENDA N1\n\nSeu domínio dos processos atingiu o nível lendário.\n\nNÍVEL\n9\nLenda N1\nXP\n18930\nacumulado\nCHEFES\n9/9\nderrotados\nCOMBO\nx135\nmáximo\nACERTOS\n135/135\nquestões\nNOTA\n100%\nAPROVADO\n🏆 PRIMEIRO SANGUE\n🏆 INVESTIGADOR\n🏆 MENTE AFIADA\n🏆 CAÇADOR DE CHEFES\n🏆 PERFECCIONISTA\n🏆 MESTRE DOS PROCESSOS\n🏆 GUARDIÃO N1\nNOVA JORNADA"
+  },
+  "close": {
+    "finish": true,
+    "session_time": "0000:00:15.00",
+    "new_calls": [
+      {
+        "t": 1792426980842,
+        "name": "LMSSetValue",
+        "a": "cmi.core.score.raw",
+        "b": "100"
+      },
+      {
+        "t": 1792426980842,
+        "name": "LMSSetValue",
+        "a": "cmi.core.score.min",
+        "b": "0"
+      },
+      {
+        "t": 1792426980842,
+        "name": "LMSSetValue",
+        "a": "cmi.core.score.max",
+        "b": "100"
+      },
+      {
+        "t": 1792426980842,
+        "name": "LMSSetValue",
+        "a": "cmi.suspend_data",
+        "b": "{\"v\":2,\"scr\":\"final\",\"n\":\"QA Zeramento Real\",\"c\":\"guardiao\",\"b\":2,\"q\":45,\"ph\":\"q\",\"ca\":[45,45,45],\"an\":[45,45,45],\"xp\":18930,\"g\":1955,\"h\":100,\"st\":135,\"bs\":135,\"dead\":0,\"bd\":9,\"ach\":[\"blood\",\"inv5\",\"mind10\",\"bosses3\",\"perfect\",\"proc2\",\"guard\"],\"inv\":[\"escudo_n1\",\"espada_atendimento\"],\"seed\":100000,\"mute\":true,\"rm\":true,\"sel\":-1,\"ok\":null,\"rw\":null,\"bi\":\"2-44\",\"ev\":null,\"la\":\"cofre_n1\",\"done\":true}"
+      },
+      {
+        "t": 1792426980842,
+        "name": "LMSSetValue",
+        "a": "cmi.core.lesson_location",
+        "b": "final|2|45|q"
+      },
+      {
+        "t": 1792426980842,
+        "name": "LMSSetValue",
+        "a": "cmi.core.exit",
+        "b": ""
+      },
+      {
+        "t": 1792426980842,
+        "name": "LMSSetValue",
+        "a": "cmi.core.session_time",
+        "b": "0000:00:15.00"
+      },
+      {
+        "t": 1792426980842,
+        "name": "LMSCommit",
+        "a": ""
+      },
+      {
+        "t": 1792426980842,
+        "name": "LMSFinish",
+        "a": ""
+      }
+    ]
+  },
+  "summary": {
+    "elapsed_s": 15.86,
+    "questions": 135,
+    "questions_ok": 135,
+    "fit_viewport": 135,
+    "bosses": 9,
+    "checkpoints": 9,
+    "chapters": 3,
+    "events": [
+      "camp",
+      "chest",
+      "item",
+      "merchant",
+      "potion",
+      "scroll"
+    ],
+    "final_done": true,
+    "answered": 135,
+    "correct": 135,
+    "bosses_defeated": 9,
+    "best_combo": 135,
+    "score": "100",
+    "lesson_status": "passed",
+    "finish": true,
+    "session_time": "0000:00:15.00",
+    "browser_errors": 0,
+    "question_hash_unchanged": true,
+    "scroll_actions": []
+  },
+  "ended": "2026-10-19T16:23:00.978538"
+}

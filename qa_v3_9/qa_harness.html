@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>LMS simulado — QA Guardião N1</title>
+<style>html,body,iframe{margin:0;width:100%;height:100%;border:0;display:block;overflow:hidden}</style></head><body>
+<script>
+// Test fixture only. This API is never included in the production SCORM ZIP.
+const params=new URLSearchParams(location.search);
+const learner=params.get('learner')||'qa';
+const attempt=params.get('attempt')||'1';
+const key='qa_lms_'+learner+'_'+attempt;
+const persisted=JSON.parse(localStorage.getItem(key)||'null');
+window.__data=Object.assign({'cmi.core.lesson_status':'not attempted','cmi.core.student_id':learner,'cmi.core.student_name':'Aluno QA','cmi.core.entry':persisted?'resume':'ab-initio','cmi.suspend_data':''},persisted||{});
+window.__calls=[];window.__violations=[];window.__rejectCommit=params.get('rejectCommit')==='1';window.__rejectSet=false;
+window.__rejectInitialize=params.get('rejectInit')==='1';window.__rejectRead=params.get('rejectRead')==='1';
+window.__rejectFields=params.getAll('rejectField');
+let active=false, error='0';
+function log(name,args){window.__calls.push({name,args:Array.from(args),active});}
+function fail(code,message){error=code;window.__violations.push(message);return 'false';}
+window.API={
+ LMSInitialize(arg){log('LMSInitialize',arguments);if(window.__rejectInitialize)return fail('101','intentional initialize rejection');if(active)return fail('101','duplicate initialize');if(arg!=='')return fail('201','initialize argument');active=true;error='0';return 'true';},
+ LMSGetValue(field){log('LMSGetValue',arguments);if(!active){fail('301','read outside session');return '';}if(window.__rejectRead&&field==='cmi.suspend_data'){fail('101','intentional read rejection');return '';}error='0';return String(window.__data[field]??'');},
+ LMSSetValue(field,value){log('LMSSetValue',arguments);if(!active)return fail('301','write outside session');if(window.__rejectSet||window.__rejectFields.includes(field))return fail('101','intentional set rejection');
+  if(typeof value!=='string')return fail('405','non-string value');
+  if(field==='cmi.suspend_data'&&value.length>4096)return fail('405','suspend_data overflow');
+  if(field==='cmi.core.lesson_status'&&!['passed','failed','completed','incomplete','browsed','not attempted'].includes(value))return fail('405','invalid status');
+  if(field==='cmi.core.score.raw'&&(!Number.isFinite(Number(value))||Number(value)<0||Number(value)>100))return fail('405','invalid score');
+  if(field==='cmi.core.session_time'&&!/^\d{4,}:\d{2}:\d{2}\.\d{2}$/.test(value))return fail('405','invalid session time');
+  window.__data[field]=value;error='0';return 'true';},
+ LMSCommit(arg){log('LMSCommit',arguments);if(!active)return fail('301','commit outside session');if(window.__rejectCommit)return fail('101','intentional commit rejection');if(arg!=='')return fail('201','commit argument');localStorage.setItem(key,JSON.stringify(window.__data));error='0';return 'true';},
+ LMSFinish(arg){log('LMSFinish',arguments);if(!active)return fail('301','finish outside session');if(arg!=='')return fail('201','finish argument');active=false;error='0';return 'true';},
+ LMSGetLastError(){return error;},LMSGetErrorString(code){return code==='0'?'No error':'QA simulated error';},LMSGetDiagnostic(code){return 'QA error '+code;}
+};
+const frame=document.createElement('iframe');frame.title='Jogo em iframe SCORM';
+frame.src='/v3_9/index.html';document.body.appendChild(frame);
+</script></body></html>

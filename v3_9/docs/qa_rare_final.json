@@ -1,0 +1,92 @@
+{
+  "started": "2026-10-19T15:23:33.414208",
+  "tests": [
+    {
+      "name": "Raro Slime Dourado dos Juros",
+      "pass": true,
+      "detail": "seed=54, name=Slime Dourado dos Juros, img=True, badge=True"
+    },
+    {
+      "name": "Raro Mímico de Ouro",
+      "pass": true,
+      "detail": "seed=2, name=Mímico de Ouro, img=True, badge=True"
+    },
+    {
+      "name": "Raro Bug Lendário do FRONT",
+      "pass": true,
+      "detail": "seed=111, name=Bug Lendário do FRONT, img=True, badge=True"
+    },
+    {
+      "name": "Raro Fada do Protocolo",
+      "pass": true,
+      "detail": "seed=70, name=Fada do Protocolo, img=True, badge=True"
+    },
+    {
+      "name": "Raro Corvo Dourado da Wiki",
+      "pass": true,
+      "detail": "seed=60, name=Corvo Dourado da Wiki, img=True, badge=True"
+    },
+    {
+      "name": "Raro Orbe Mobilize",
+      "pass": true,
+      "detail": "seed=17, name=Orbe Mobilize, img=True, badge=True"
+    },
+    {
+      "name": "Todos raros animados",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Sem exceções JS raros",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "questions": [],
+  "bosses": [],
+  "events": [],
+  "resumes": [],
+  "perf": [],
+  "visual": [],
+  "rare": [
+    {
+      "id": "slime_dourado",
+      "name": "Slime Dourado dos Juros",
+      "seed": 54,
+      "pass": true
+    },
+    {
+      "id": "mimico_ouro",
+      "name": "Mímico de Ouro",
+      "seed": 2,
+      "pass": true
+    },
+    {
+      "id": "bug_lendario",
+      "name": "Bug Lendário do FRONT",
+      "seed": 111,
+      "pass": true
+    },
+    {
+      "id": "fada_protocolo",
+      "name": "Fada do Protocolo",
+      "seed": 70,
+      "pass": true
+    },
+    {
+      "id": "corvo_dourado",
+      "name": "Corvo Dourado da Wiki",
+      "seed": 60,
+      "pass": true
+    },
+    {
+      "id": "orbe_mobilize",
+      "name": "Orbe Mobilize",
+      "seed": 17,
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "corrections": [],
+  "browser_errors": []
+}
