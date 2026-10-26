@@ -1,0 +1,42 @@
+/* Three-class appearance UI. The validated Phase 1 source stays untouched. */
+.appearanceSprite{display:inline-grid;grid-area:1/1;vertical-align:middle;line-height:0;max-width:100%}
+.appearanceSprite>.pixelSprite{grid-area:1/1;object-fit:contain;image-rendering:pixelated}
+.appearanceSprite>[hidden]{display:none!important}
+.heroAppearance>.appearanceSprite{grid-area:1/1}
+.itemPreview .appearanceSprite>.pixelSprite{width:110px;height:110px;filter:drop-shadow(3px 5px #06131e)}
+.appearancePanel{width:min(1080px,100%);margin:auto;height:auto;min-height:0;max-height:none;padding:26px}
+.appearanceCreate{height:auto!important;max-height:none!important;overflow:visible!important}
+.appearanceCreate .classGrid{margin-bottom:20px}
+.appearanceIdentity,.appearanceFields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:20px 0}
+.appearanceFields{grid-template-columns:repeat(3,minmax(0,1fr))}
+.appearanceIdentity label,.appearanceFields label,.appearanceNameLabel{display:flex;flex-direction:column;gap:9px;color:#dfedf3;font:700 13px/1.5 "Courier New",monospace;min-width:0}
+.appearanceIdentity input,.appearanceIdentity select,.appearanceFields select,.appearanceNameLabel input{width:100%;min-height:46px;border:2px solid #678b9d;background:#0a1c29;color:#f3f7fa;padding:10px 12px;font:15px/1.4 system-ui,sans-serif;border-radius:0}
+.appearanceIdentity input:focus-visible,.appearanceIdentity select:focus-visible,.appearanceFields select:focus-visible,.appearanceNameLabel input:focus-visible{outline:3px solid #ffe377;outline-offset:3px}
+.appearanceFields select:disabled{opacity:.55;cursor:not-allowed}
+.appearanceNotice{border-left:4px solid #7cd6cb;padding:11px 14px;background:#102a37;color:#d9edf4;line-height:1.6;font-size:14px;overflow-wrap:anywhere}
+#appearanceStatus{min-height:2.5em;color:#bddfd6;font-size:14px;line-height:1.6;overflow-wrap:anywhere}
+.appearancePreview{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:20px 0}
+.appearancePose{margin:0;border:1px solid #597f91;background:radial-gradient(ellipse at 50% 90%,#2f62794d,transparent 75%),#0b1c29;min-width:0;padding:13px;display:flex;flex-direction:column;align-items:center;gap:9px}
+.appearancePose>div{display:grid;place-items:center;min-height:136px;width:100%}
+.appearancePose .pixelSprite{width:128px;height:128px;filter:drop-shadow(0 4px #040c14)}
+.appearancePose figcaption{font:700 12px/1.5 "Courier New",monospace;color:#f2dda1;text-align:center}
+.appearancePanel .featureActions,.appearanceCreate .featureActions{display:flex;flex-wrap:wrap;gap:14px}
+.appearancePanel .pxBtn,.appearanceCreate .featureActions .pxBtn{min-height:46px;white-space:normal;max-width:100%;height:auto}
+.checkpointAppearance,.finalAppearance{width:fit-content;max-width:100%;margin:14px auto}
+.finalAppearance .pixelSprite{width:72px;height:72px}
+.checkpointAppearance span,.finalAppearance span{overflow-wrap:anywhere;min-width:0}
+@media(max-width:700px){
+ .appearancePanel{padding:20px 16px}
+ .appearanceIdentity,.appearanceFields{grid-template-columns:1fr 1fr;gap:13px}
+ .appearancePreview{grid-template-columns:1fr 1fr;gap:12px}
+ .appearancePose{padding:12px 8px}
+ .appearancePose .pixelSprite{width:112px;height:112px}
+ .appearancePose>div{min-height:120px}
+ .itemPreview .appearanceSprite>.pixelSprite{width:116px;height:116px}
+}
+@media(max-width:420px){
+ .appearanceIdentity,.appearanceFields{grid-template-columns:1fr}
+ .appearancePanel .featureActions .pxBtn{width:100%}
+}
+@media(prefers-reduced-motion:reduce){.appearanceSprite,.appearancePreview{animation:none!important;transition:none!important}}
+body.reduce-motion .appearanceSprite,body.reduce-motion .appearancePreview{animation:none!important;transition:none!important}

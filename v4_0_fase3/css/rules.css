@@ -1,0 +1,57 @@
+/* Phase 1 rules: readable optional notices, chapter gate and recoverable reset.
+   No new art or network dependencies. Native dialog is independent of allow-modals. */
+.rulesNotice,.chapterGoal{
+  border:1px solid #638597;border-left:4px solid var(--chapter,#74d5ca);
+  background:#0a1e2b;color:#dceaf1;padding:11px 14px;margin:12px 0;
+  font-size:13px;line-height:1.55;overflow-wrap:anywhere;
+}
+.chapterGoal strong{color:#ffda43}
+.rulesNotice small{display:block;color:#b8ceda;margin-top:5px}
+.ruleGate,.gameOver{
+  height:auto;min-height:0;max-width:940px;margin:auto;
+  padding:clamp(20px,4vw,40px);overflow:visible;
+}
+.ruleGate h1,.gameOver h1{font-size:clamp(27px,4vw,42px);line-height:1.15;margin:12px 0 18px}
+.ruleGate p,.gameOver p{max-width:760px;font-size:15px;line-height:1.65;overflow-wrap:anywhere}
+.gameOver{border-color:#bd7b99;background:radial-gradient(ellipse at top,#44273955,transparent 62%),linear-gradient(135deg,#172531,#0b1620)}
+.gameOver h1{color:#ffadbe;letter-spacing:.04em}
+.ruleGate h1{color:#ffe079}
+.rulesActions{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:22px}
+.rulesActions .pxBtn{min-height:44px;max-width:100%;white-space:normal}
+.rulesSummary{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:20px 0}
+.rulesSummary>*{padding:13px;border:1px solid #597a8d;background:#122b3b;line-height:1.5;overflow-wrap:anywhere}
+.rulesSummary strong{display:block;color:#ffe079;font-size:22px}
+.rulesDialog{
+  color:#edf5fa;background:linear-gradient(135deg,#193141,#0b1925);
+  border:3px solid #7996a8;box-shadow:0 0 0 4px #030b12,0 20px 70px #0009;
+  width:min(620px,calc(100vw - 32px));max-width:calc(100vw - 32px);
+  max-height:calc(100dvh - 32px);height:fit-content;margin:auto;padding:24px;overflow:auto;
+  overscroll-behavior:contain;scroll-padding:16px;z-index:1000;
+}
+.rulesDialog::backdrop{background:#020911db}
+.rulesDialog h2{margin:0 0 16px;color:#ffe079;font-size:24px;line-height:1.25}
+.rulesDialog p{font-size:15px;line-height:1.65;overflow-wrap:anywhere}
+.rulesDialog .rulesActions{justify-content:flex-end}
+.rulesDialog .pxBtn{min-height:44px;margin:0}
+.rulesDialog [role=alert],#transitionStatus{color:#ffd4dc;line-height:1.55;overflow-wrap:anywhere}
+.rulesDialog [role=status]{line-height:1.55;overflow-wrap:anywhere}
+.rulesDialog [hidden]{display:none!important}
+.rulesDialog[role=dialog]:not(dialog){position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);margin:0}
+.rulesDialog button:focus-visible,.rulesDialog [tabindex]:focus-visible,
+.ruleGate button:focus-visible,.gameOver button:focus-visible{
+  outline:3px solid #fff5bd;outline-offset:4px;
+}
+@media(max-width:600px){
+  .ruleGate,.gameOver{padding:22px 18px}
+  .rulesSummary{grid-template-columns:1fr 1fr}
+  .rulesDialog{padding:20px 16px}
+  .rulesDialog .rulesActions{align-items:stretch}
+  .rulesDialog .rulesActions .pxBtn{flex:1 1 150px}
+  .rulesNotice,.chapterGoal{font-size:12px}
+}
+@media(max-height:650px){
+  .ruleGate,.gameOver{padding-top:22px;padding-bottom:24px}
+  .rulesDialog{padding-top:18px;padding-bottom:18px}
+}
+@media(prefers-reduced-motion:reduce){.rulesDialog,.ruleGate,.gameOver{animation:none!important;transition:none!important;scroll-behavior:auto}}
+body.reduce-motion .rulesDialog,body.reduce-motion .ruleGate,body.reduce-motion .gameOver{animation:none!important;transition:none!important;scroll-behavior:auto}

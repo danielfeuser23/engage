@@ -1,0 +1,148 @@
+{
+  "scope": "Recorded final Fase 3 tests; packaging verification is independently reproducible. Not Engage homologation.",
+  "course_sha256": "f299a6951531ccffa99cb2a2cfc78d1e4127cbd7f4c73ab7f0e4b81076ae9bef",
+  "course_bytes": 3328045,
+  "runtime_files": 201,
+  "manifest_files": 201,
+  "journey": {
+    "state_injection_used": false,
+    "seen": {
+      "answered": 135,
+      "correct": 117,
+      "wrong": 18,
+      "chapters": 3,
+      "bosses": 9,
+      "checkpoints": 9,
+      "events": {
+        "scroll": 4,
+        "potion": 4,
+        "camp": 4,
+        "item": 2,
+        "merchant": 2,
+        "chest": 2
+      },
+      "event_choices": 17,
+      "event_skips": 1,
+      "missions": 3,
+      "purchases": 3,
+      "equips": 3,
+      "reloads": 14,
+      "guided_steps": 18,
+      "rare": 11,
+      "game_overs": 0,
+      "appearance_edits": 3
+    },
+    "notebook_exact_match": true,
+    "original_feedback_and_reference_verified": true,
+    "guided_consultations_persisted": true,
+    "max_suspend_chars": 1309,
+    "expected_score": 86,
+    "expected_status": "passed",
+    "page_errors": [],
+    "failed_requests": [],
+    "violations": [],
+    "engage_real": false
+  },
+  "bestiary": {
+    "passed": 868,
+    "failed": 0,
+    "expected_matrix_cases": 744,
+    "expected_additional_class_cases": 124,
+    "source_unchanged_during_tests": true,
+    "engage_real": false
+  },
+  "cosmetics": {
+    "passed": 213,
+    "failed": 0,
+    "source_unchanged_during_tests": true,
+    "engage_real": false
+  },
+  "regressions": [
+    {
+      "suite": "test-bosses.cjs",
+      "returncode": 0,
+      "passed": 35,
+      "failed": 0,
+      "harness": "Isolated inherited module contracts (original harness)"
+    },
+    {
+      "suite": "test-events.cjs",
+      "returncode": 0,
+      "passed": 19,
+      "failed": 0,
+      "harness": "Isolated inherited module contracts (original harness)"
+    },
+    {
+      "suite": "test-guided-review.cjs",
+      "returncode": 0,
+      "passed": 18,
+      "failed": 0,
+      "harness": "Isolated inherited module contracts (original harness)"
+    },
+    {
+      "suite": "test-missions.cjs",
+      "returncode": 0,
+      "passed": 20,
+      "failed": 0,
+      "harness": "Isolated inherited module contracts (original harness)"
+    },
+    {
+      "suite": "test-progression.cjs",
+      "returncode": 0,
+      "passed": 21,
+      "failed": 0,
+      "harness": "Isolated inherited module contracts (original harness)"
+    },
+    {
+      "suite": "test-scorm-extensions.cjs",
+      "returncode": 0,
+      "passed": 14,
+      "failed": 0,
+      "harness": "Isolated inherited module contracts (original harness)"
+    },
+    {
+      "suite": "test-scorm-save.cjs",
+      "returncode": 0,
+      "passed": 27,
+      "failed": 0,
+      "harness": "Isolated inherited module contracts (original harness)"
+    },
+    {
+      "suite": "test_history.cjs",
+      "returncode": 0,
+      "passed": 48,
+      "failed": 0,
+      "harness": "Active rules/domain"
+    },
+    {
+      "suite": "test_rules.cjs",
+      "returncode": 0,
+      "passed": 42,
+      "failed": 0,
+      "harness": "Active rules/domain"
+    },
+    {
+      "suite": "test_save.cjs",
+      "returncode": 0,
+      "passed": 51,
+      "failed": 0,
+      "harness": "Active rules/domain"
+    }
+  ],
+  "extracted": {
+    "passed": 22,
+    "failed": 0,
+    "engage_real": false
+  },
+  "original_evidence_files_sha256": {
+    "jornada/jornada_fase3_resultado.json": "7d1f947b76194550fda82da4dde6bd349f5c5639ea08be032b615a2a8625128f",
+    "browser/summary_bestiario.json": "8899bbedf989572ba01d3ec550db20fd0e653f1e04e64511a9c40b8367641554",
+    "browser/summary_cosmeticos.json": "6ff2ab5e4d9744caf581b3f5c18d474ed72dec91257ef666ca8e09a9d926941f",
+    "regressoes/summary.json": "2ec3a5646b762cf60346d471f2b17e74d61364d97f91581d4e600d7aabed571f",
+    "pacote_extraido_browser.json": "b3a0093eb1945c65a34b460667f51e8a0666dfd07b404bc6bd012648e871ae4b"
+  },
+  "external_archives": {
+    "Testes_e_Evidencias_Guardiao_N1_v4_0_FASE_3.zip": "5dd84456e1c850668cc8252e67d3a33dc31756f084aac416c8ea3ff88b03deaa",
+    "Fontes_e_Artes_Guardiao_N1_v4_0_FASE_3.zip": "eb0f8fc23a83680a6268c4c63f2dc7c30c1b558438d9511106bfce52cdfe6a47"
+  }
+}

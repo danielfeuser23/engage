@@ -1,0 +1,19 @@
+/* v3.7: study feedback and keyboard navigation, without new visual assets. */
+#questionTitle:focus{outline:2px solid #92dcd2;outline-offset:5px}
+.feedback:focus{outline:2px solid #92dcd2;outline-offset:3px}
+.feedbackReference{padding:10px 12px;border-left:3px solid #92dcd2;background:#0b1b27;overflow-wrap:anywhere;color:#dcebf1}
+.feedbackReference strong{display:block;color:#92dcd2;font:700 10px/1.6 "Courier New",monospace;letter-spacing:.06em}
+.nextStepHint{border-top:1px solid #526d7a;padding-top:10px;color:#ffdc60;font-size:12px;line-height:1.6}
+.reviewTools{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin:20px 0 8px;padding:16px;background:#102735;border:1px solid #526d7a}
+.reviewTools label{flex:1 1 260px;min-width:0;font:700 11px/1.6 "Courier New",monospace;color:#a9dad5}
+.reviewTools select{display:block;width:100%;min-height:44px;margin-top:7px;padding:10px;border:2px solid #648493;border-radius:0;background:#091b27;color:#edf6fc;font:400 14px/1.4 Arial,sans-serif}
+.reviewTools select:focus-visible{outline:3px solid #ffdc60;outline-offset:3px}
+.reviewTools .pxBtn{min-height:44px;white-space:normal}
+.reviewFilterStatus{font-size:13px;line-height:1.6;color:#b9d4df;overflow-wrap:anywhere}
+.reviewGroup[hidden]{display:none!important}
+@media(max-width:580px){
+  .reviewTools{display:grid;grid-template-columns:1fr 1fr;padding:12px;gap:10px}
+  .reviewTools label{grid-column:1/-1;width:100%}
+  .reviewTools .pxBtn{min-width:0;padding:10px;font-size:10px}
+  .feedbackReference{padding:9px;font-size:13px;line-height:1.6}
+}

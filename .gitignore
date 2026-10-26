@@ -12,3 +12,7 @@ generated_images/
 zipcheck*/
 *.log
 .DS_Store
+evidencias_v4_0/
+arte_v4_0/
+Testes_e_Evidencias*.zip
+Fontes_e_Artes*.zip

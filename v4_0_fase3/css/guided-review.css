@@ -1,0 +1,54 @@
+/* Local study route; visual language shares the existing pixel-panel palette. */
+.guidedReview{margin:24px 0;padding:22px;border:2px solid #6b9caa;background:linear-gradient(135deg,#12303a,#0b1d2a);box-shadow:inset 0 0 0 4px #0a1723;color:#e6f2f5;min-width:0}
+.guidedReview h2{font:800 23px/1.35 "Courier New",monospace;color:#ffe26b;margin:8px 0 12px;overflow-wrap:anywhere}
+.guidedReview p{font-size:14px;line-height:1.7;overflow-wrap:anywhere}
+.guidedReview .eyebrow{color:#9ce4d8}
+.guidedNotice,.guidedSaveNotice{padding:12px 14px;border-left:3px solid #ffe26b;background:#302b20;color:#f4e8c4}
+.guidedEmpty{padding:16px;border:1px solid #62838e;background:#102733}
+.guidedPriorities{margin:16px 0 20px}
+.guidedPriorities>p{margin:0 0 8px;font:700 11px/1.6 "Courier New",monospace;color:#abdcd3;text-transform:uppercase;letter-spacing:.04em}
+.guidedPriorities>div{display:flex;gap:8px;flex-wrap:wrap}
+.guidedThemeChip{font:700 12px/1.5 "Courier New",monospace;color:#dbf2ed;background:#153640;border:1px solid #709d9f;padding:10px 12px;text-align:left;min-height:44px;max-width:100%;overflow-wrap:anywhere;cursor:pointer}
+.guidedThemeChip span{display:block;font-weight:400;font-size:11px;color:#adc9cc}
+.guidedThemeChip[aria-pressed="true"]{border-color:#ffdf58;box-shadow:inset 3px 0 #ffdf58;color:#ffe26b;background:#23383c}
+.guidedOverview{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(200px,1fr);gap:18px;align-items:center;margin:0 0 18px}
+.guidedOverview label{display:block;min-width:0;font:700 10px/1.7 "Courier New",monospace;color:#addad6;letter-spacing:.04em}
+.guidedOverview select{display:block;width:100%;min-width:0;margin-top:7px;padding:11px 10px;min-height:44px;border:2px solid #73949f;border-radius:0;background:#0b202d;color:#eef8f8;font:400 14px/1.5 Arial,sans-serif}
+.guidedProgress{display:grid;grid-template-columns:auto 1fr;gap:3px 9px;min-width:0}
+.guidedProgress>strong{font:800 22px/1.2 "Courier New",monospace;color:#9de3ce}
+.guidedProgress>span{font-size:11px;line-height:1.5;color:#bfd6dd;align-self:center}
+.guidedProgress [role="progressbar"]{grid-column:1/-1;height:9px;border:1px solid #6f919e;background:#071a25;margin-top:5px;overflow:hidden}
+.guidedProgress [role="progressbar"] i{display:block;height:100%;background:#8fd9c4}
+.guidedEntry{padding:20px;border:1px solid #64858f;background:#091c29;min-width:0}
+.guidedStepMeta{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;color:#a9d6d4;font:700 10px/1.6 "Courier New",monospace}
+.guidedEntry h3{font:700 17px/1.6 Arial,sans-serif;color:#f1f7fa;margin:14px 0 16px;overflow-wrap:anywhere}
+.guidedEntry .guidedAnswer{background:#173c33;border-left:3px solid #88d2b4;padding:11px 12px;color:#e4f4e9}
+.guidedReference{border-left:3px solid #ffe26b;padding:10px 12px;background:#152a34}
+.guidedReference strong{display:block;font:700 10px/1.7 "Courier New",monospace;color:#ffe26b;letter-spacing:.04em}
+.guidedEntry .guidedAction{font-size:13px;color:#bfd8df}
+.guidedStepStatus{font:700 11px/1.6 "Courier New",monospace;color:#b9ddcb;border-top:1px solid #425c67;padding-top:12px;margin-top:16px;overflow-wrap:anywhere}
+.guidedActions{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;margin-top:16px;align-items:stretch}
+.guidedActions .pxBtn{white-space:normal;min-width:0;min-height:44px;font-size:11px;padding:12px}
+.guidedComplete{color:#b1e5bd;border-left:3px solid #93d6a7;padding-left:12px}
+.guidedStatus:empty{display:none}
+.guidedStatus{color:#b9e5d8;margin:14px 0 8px}
+.guidedReview :focus-visible,.guidedReview [tabindex="-1"]:focus{outline:3px solid #ffdf58;outline-offset:4px}
+@media(max-width:760px){
+  .guidedReview{padding:17px}
+  .guidedOverview{grid-template-columns:1fr;gap:14px}
+  .guidedProgress{max-width:360px}
+  .guidedEntry{padding:15px}
+}
+@media(max-width:580px){
+  .guidedReview{padding:14px;margin:20px 0}
+  .guidedReview h2{font-size:20px}
+  .guidedReview p{font-size:13px;line-height:1.7}
+  .guidedThemeChip{flex:1 1 100%;padding:9px 10px}
+  .guidedEntry{padding:12px}
+  .guidedEntry h3{font-size:16px}
+  .guidedStepMeta{font-size:9px}
+  .guidedActions{grid-template-columns:1fr 1fr;gap:10px}
+  .guidedActions #markConsulted{grid-column:1/-1;grid-row:1}
+  .guidedActions .pxBtn{font-size:10px;padding:11px 8px}
+}
+@media(prefers-reduced-motion:reduce){.guidedReview *{scroll-behavior:auto!important}}
